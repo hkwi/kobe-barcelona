@@ -86,9 +86,9 @@ function expand(lkey){
 				for(var i=0; i<row.ages.length; i++){
 					data.push({name:"population", age:i, value:row.ages[i]});
 				}
-				var hex = "#"+hex2(Math.floor(256*row.R))
-					+hex2(Math.floor(256*row.G))
-					+hex2(Math.floor(256*row.B));
+				var hex = "#"+hex2(Math.floor(255*row.R))
+					+hex2(Math.floor(255*row.G))
+					+hex2(Math.floor(255*row.B));
 				hist.data(data)
 					.attrs([{"name":"population","hex":hex}])
 					.color("hex")
@@ -117,7 +117,7 @@ function initMap() {
 	axios.get("data/ages_b.json").then(function(resp){
 		var info = new google.maps.InfoWindow();
 		resp.data.forEach(function(row){
-			var c = "rgb("+Math.floor(256*row.R)+","+Math.floor(256*row.G)+","+Math.floor(256*row.B)+")";
+			var c = "rgb("+Math.floor(255*row.R)+","+Math.floor(255*row.G)+","+Math.floor(255*row.B)+")";
 			var name = row.barris;
 			var pos = new google.maps.LatLng(row.lat, row.lng);
 			var p = new google.maps.Circle({
