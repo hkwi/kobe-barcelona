@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="default.css">
+</head>
+<body>
+
+<div class="jumbotron">
+ <div class="container">
+  <div class="row">
+   <h1>Kobe & Barcelona</h1>
+   Demographics visualization
+  </div>
+   <div id="map1" class="col-md-5"></div>
+   <div class="col-md-1"></div>
+   <div id="map2" class="col-md-5"></div>
+  </div>
+  <div class="row">
+   <div class="col-md-5">
+    <a href="k.html" class="btn btn-primary" role="button">Kobe</a>
+   </div>
+   <div class="col-md-1"></div>
+   <div class="col-md-5">
+    <a href="b.html" class="btn btn-primary" role="button">Barcelona</a>
+   </div>
+  </div>
+ </div>
+</div>
+
+<div class="container">
+<section class="footer">(C) Kawai, Hiroaki</section>
+</div>
+
+<script src="axios.min.js"></script>
+<script type="text/javascript">
+var map;
+function initMap() {
+	var smt = new google.maps.StyledMapType([{
+		'stylers': [
+			{'gamma': 0.8 },
+			{ 'saturation': -100 },
+			{ 'lightness': 20 }
+		]
+	}], { name: "monochrome" });
+	map1 = new google.maps.Map(document.getElementById('map1'), {disableDefaultUI:true});
+	map2 = new google.maps.Map(document.getElementById('map2'), {disableDefaultUI:true});
+	map1.mapTypes.set("mono", smt);
+	map1.setMapTypeId("mono");
+	map2.mapTypes.set("mono", smt);
+	map2.setMapTypeId("mono");
+	map1.fitBounds(new google.maps.LatLngBounds(
+		new google.maps.LatLng(34.6504, 135.116),
+		new google.maps.LatLng(34.7382, 135.2654)));
+	map2.fitBounds(new google.maps.LatLngBounds(
+		new google.maps.LatLng(41.320004, 2.0695258),
+		new google.maps.LatLng(41.4695761, 2.2280099)));
+	function ctrl(html){
+		var d1 = document.createElement("div");
+		d1.style.backgroundColor = "white";
+		d1.style.padding = "15px";
+		d1.style.margin = "5px";
+		d1.innerHTML=html;
+		return d1;
+	}
+	axios.get("data/ages.json").then(function(resp){
+		resp.data.forEach(function(row){
+			var c = "rgb("+Math.floor(256*row.R)+","+Math.floor(256*row.G)+","+Math.floor(256*row.B)+")";
+			new google.maps.Circle({
+				center: new google.maps.LatLng(row.lat, row.lng),
+				strokeColor: c,
+				strokeOpacity: 0,
+				fillColor: c,
+				fillOpacity: 0.6,
+				radius: 100,
+				map: map1});
+		});
+	})
+	axios.get("data/ages_b.json").then(function(resp){
+		resp.data.forEach(function(row){
+			var c = "rgb("+Math.floor(256*row.n1)+","+Math.floor(256*row.n2)+","+Math.floor(256*row.n3)+")";
+			new google.maps.Circle({
+				center: new google.maps.LatLng(row.lat, row.lng),
+				strokeColor: c,
+				strokeOpacity: 0,
+				fillColor: c,
+				fillOpacity: 0.6,
+				radius: 400,
+				map: map2});
+		});
+	})
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWG7RNe916URO79mZeYBiMFfORHoHQSG4&callback=initMap"></script>
+</body>
+</html>

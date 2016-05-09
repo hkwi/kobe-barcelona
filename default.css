@@ -1,0 +1,43 @@
+#map { height: 400px; }
+#map1 { height: 400px; }
+#map2 { height: 400px; }
+#hist { height: 300px; }
+#hR { height: 80px; }
+#hG { height: 80px; }
+#hB { height: 80px; }
+#wR { overflow: hidden; }
+#wG { overflow: hidden; }
+#wB { overflow: hidden; }
+/*
+html, body {
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+
+#map { height: 100%; width: 100%; }
+#map1 { height: 100%; width: 45%; }
+#map2 { height: 100%; width: 45%; }
+
+h1.preface {
+	text-align: center;
+	padding: 50px;
+	color: #000066;
+}
+
+h1 {
+	color: #000066;
+	padding: 0 25px 10px;
+}
+
+section {
+	padding: 0 25px;
+}
+
+article.topic {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 25px 50px;
+	height: 75%;
+}
+*/
