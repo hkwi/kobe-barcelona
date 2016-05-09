@@ -15,6 +15,7 @@
    <h1>Kobe & Barcelona</h1>
    Demographics visualization
   </div>
+  <div class="row">
    <div id="map1" class="col-md-5"></div>
    <div class="col-md-1"></div>
    <div id="map2" class="col-md-5"></div>
@@ -81,7 +82,7 @@ function initMap() {
 	})
 	axios.get("data/ages_b.json").then(function(resp){
 		resp.data.forEach(function(row){
-			var c = "rgb("+Math.floor(256*row.n1)+","+Math.floor(256*row.n2)+","+Math.floor(256*row.n3)+")";
+			var c = "rgb("+Math.floor(256*row.R)+","+Math.floor(256*row.G)+","+Math.floor(256*row.B)+")";
 			new google.maps.Circle({
 				center: new google.maps.LatLng(row.lat, row.lng),
 				strokeColor: c,
