@@ -54,7 +54,9 @@ w = model.fit_transform(data.loc[:,"0歳":"100歳以上"].as_matrix())
 b = model.components_
 cidx = pd.Series.sort_values(pd.Series((range(len(b.T))*b).sum(axis=1), index=[0,1,2]))
 pdw = pd.DataFrame(w, index=data.index, columns=["w"+"GBR"[x] for x in cidx.index])
-n=w.T/numpy.sqrt((w*w).sum(axis=1))
+w2=numpy.sqrt((w*w).sum(axis=1))
+w2[w2==0] = 1.0
+n=w.T/w2
 pdn = pd.DataFrame(n.T, index=data.index, columns=["GBR"[x] for x in cidx.index])
 data = pd.concat([data, pdw, pdn], axis=1)
 cdata = pd.DataFrame(b.T, columns=["GBR"[list(cidx.index).index(x)] for x in range(3)])
