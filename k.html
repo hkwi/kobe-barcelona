@@ -44,14 +44,15 @@
 <script src="d3.min.js"></script>
 <script src="d3plus.min.js"></script>
 <script type="text/javascript">
+//var base = "kobe_20130630_";
+var base = "";
 var hist = d3plus.viz().container("#hist").type("bar").id("name").text("").x("age").y("value");
 
-axios.get("data/rgb.json").then(function(resp){
+axios.get("data/"+base+"rgb.json").then(function(resp){
 	var proc = function(data, frag, hex){
 		var feed = [];
 		for(var i=0; i<data.length; i++){
 			feed.push({ age:i, value:data[i], name:frag });
-			console.log(data[i]);
 		}
 		d3plus.viz().container(frag)
 			.data(feed).type("bar")
@@ -74,7 +75,7 @@ function hex2(i){
 
 function expand(lkey){
 	var lkey = new Number(lkey);
-	axios.get("data/ages.json").then(function(resp){
+	axios.get("data/"+base+"ages.json").then(function(resp){
 		for(var r=0; r<resp.data.length; r++){
 			var row = resp.data[r];
 			if(row.lkey == lkey){
@@ -114,7 +115,7 @@ function initMap() {
 	map.fitBounds(new google.maps.LatLngBounds(
 		new google.maps.LatLng(34.6504, 135.116),
 		new google.maps.LatLng(34.7382, 135.2654)));
-	axios.get("data/ages.json").then(function(resp){
+	axios.get("data/"+base+"ages.json").then(function(resp){
 		var info = new google.maps.InfoWindow();
 		resp.data.forEach(function(row){
 			var c = "rgb("+Math.floor(255*row.R)+","+Math.floor(255*row.G)+","+Math.floor(255*row.B)+")";
