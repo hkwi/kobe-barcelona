@@ -14,7 +14,9 @@
   <div class="col-md-2 sidebar">
    <ul class="nav nav-sidebar">
     <li><a href="k.html">Kobe</a></li>
+    <li><a href="k2.html">&nbsp; by animation</a></li>
     <li><a href="b.html">Barcelona</a></li>
+    <li><a href="b2.html">&nbsp; by animation</a></li>
    </ul>
   </div>
   <div class="col-md-10">
@@ -51,7 +53,6 @@ axios.get("data/rgb_b.json").then(function(resp){
 		var feed = [];
 		for(var i=0; i<data.length; i++){
 			feed.push({ age:i, value:data[i], name:frag });
-			console.log(data[i]);
 		}
 		d3plus.viz().container(frag)
 			.data(feed).type("bar")
