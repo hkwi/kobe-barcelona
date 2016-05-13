@@ -1,20 +1,3 @@
-<!doctype html>
-<html>
-<head>
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="default.css">
-</head>
-<body>
-
-<div class="jumbotron">
- <div class="container">
-  <div class="row">
-   <h1>Kobe & Barcelona</h1>
-   Demographics visualization
-  </div>
   <div class="row">
    <div id="map1" class="col-md-5"></div>
    <div class="col-md-1"></div>
@@ -22,21 +5,14 @@
   </div>
   <div class="row">
    <div class="col-md-5">
-    <a href="k.html" class="btn btn-primary" role="button">Kobe</a>
+    <a href="/app/2016/05/10/kobe" class="btn btn-primary" role="button">Kobe</a>
    </div>
    <div class="col-md-1"></div>
    <div class="col-md-5">
-    <a href="b.html" class="btn btn-primary" role="button">Barcelona</a>
+    <a href="/app/2016/05/10/barcelona" class="btn btn-primary" role="button">Barcelona</a>
    </div>
   </div>
- </div>
-</div>
-
-<div class="container">
-<section class="footer">(C) Kawai, Hiroaki. Kobe city stats data is licensed under CC-BY by city of Kobe. Barcelona stats data is licensed under CC-BY by Barcelona city.</section>
-</div>
-
-<script src="axios.min.js"></script>
+<script src="/assets/axios.min.js"></script>
 <script type="text/javascript">
 var map;
 function initMap() {
@@ -67,7 +43,7 @@ function initMap() {
 		d1.innerHTML=html;
 		return d1;
 	}
-	axios.get("data/ages.json").then(function(resp){
+	axios.get("/data/ages.json").then(function(resp){
 		resp.data.forEach(function(row){
 			var c = "rgb("+Math.floor(256*row.R)+","+Math.floor(256*row.G)+","+Math.floor(256*row.B)+")";
 			new google.maps.Circle({
@@ -80,7 +56,7 @@ function initMap() {
 				map: map1});
 		});
 	})
-	axios.get("data/ages_b.json").then(function(resp){
+	axios.get("/data/ages_b.json").then(function(resp){
 		resp.data.forEach(function(row){
 			var c = "rgb("+Math.floor(256*row.R)+","+Math.floor(256*row.G)+","+Math.floor(256*row.B)+")";
 			new google.maps.Circle({
@@ -95,8 +71,4 @@ function initMap() {
 	})
 }
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWG7RNe916URO79mZeYBiMFfORHoHQSG4&callback=initMap"></script>
-</body>
-</html>

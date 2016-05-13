@@ -1,39 +1,11 @@
-<!doctype html>
-<html>
-<head>
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="default.css">
-</head>
-<body>
-
-<div class="container-fluid">
- <div class="row">
-  <div class="col-md-2 sidebar">
-   <ul class="nav nav-sidebar">
-    <li><a href="k.html">Kobe</a></li>
-    <li><a href="k2.html">&nbsp; by animation</a></li>
-    <li><a href="b.html">Barcelona</a></li>
-    <li><a href="b2.html">&nbsp; by animation</a></li>
-   </ul>
-  </div>
-  <div class="col-md-10">
-   <h1>Animation: <span id="age_name"></span></h1>
-   <article class="topic">
-    <div id="mapH"></div>
-   </article>
-   <div class="row">
-    <div id="hist"></div>
-   </div>
-  </div>
- </div>
+<div id="mapH"></div>
+<div class="row">
+ <div id="hist"></div>
 </div>
 
-<script src="axios.min.js"></script>
-<script src="d3.min.js"></script>
-<script src="d3plus.min.js"></script>
+<script src="/assets/axios.min.js"></script>
+<script src="/assets/d3.min.js"></script>
+<script src="/assets/d3plus.min.js"></script>
 <script type="text/javascript">
 var hist = d3plus.viz().container("#hist").type("bar").id("name").text("").x("age").y("value");
 var histBase = ["#hR", "#hG", "#hB"].map(function(name){
@@ -54,7 +26,7 @@ function hex2(i){
 
 function expand(lkey, base){
 	var lkey = new Number(lkey);
-	axios.get("data/"+base+"_ages.json").then(function(resp){
+	axios.get("/data/"+base+"_ages.json").then(function(resp){
 		for(var r=0; r<resp.data.length; r++){
 			var row = resp.data[r];
 			if(row.lkey == lkey){
@@ -81,7 +53,7 @@ function expand(lkey, base){
 
 var circles = {}
 function load(base){
-	document.getElementById("age_name").innerHTML="Barcelona "+base.substring(10,14);
+	document.getElementById("age_name").innerHTML=base.substring(10,14);
 /*
 	axios.get("data/"+base+"_rgb.json").then(function(resp){
 		var proc = function(data, viz, hex){
@@ -98,7 +70,7 @@ function load(base){
 		proc(resp.data["B"], histBase[2], "#0000ff");
 	});
 */
-	axios.get("data/"+base+"_ages.json").then(function(resp){
+	axios.get("/data/"+base+"_ages.json").then(function(resp){
 		var info = new google.maps.InfoWindow();
 		for(lkey in circles){
 			circles[lkey].setOptions({
@@ -169,12 +141,18 @@ function initMap() {
 	map.fitBounds(new google.maps.LatLngBounds(
 		new google.maps.LatLng(41.370004, 2.0695258),
 		new google.maps.LatLng(41.4495761, 2.2280099)));
+	function ctrl(){
+		var d1 = document.createElement("div");
+		d1.style.backgroundColor = "white";
+		d1.style.padding = "15px";
+		d1.style.margin = "5px";
+		d1.innerHTML='<h2 id="age_name"></h2>';
+		return d1;
+	}
+	map.controls[google.maps.ControlPosition.TOP_RIGHT].push(ctrl());
+	
 	setTimeout(loop, 400);
 }
 
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWG7RNe916URO79mZeYBiMFfORHoHQSG4&callback=initMap"></script>
-</body>
-</html>
