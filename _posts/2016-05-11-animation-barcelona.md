@@ -1,5 +1,5 @@
 ---
-title: Kobe animation
+title: Barcelona animation
 category: app
 layout: page
 ---
@@ -61,7 +61,7 @@ function expand(lkey, base){
 var age_name = document.getElementById("age_name");
 var circles = {}
 function load(base, prefix){
-	age_name.innerHTML=prefix.substring(5,9)+"-"+prefix.substring(9,11)+"-"+prefix.substring(11,13);
+	age_name.innerHTML=prefix.substring(10,14);
 /*
 	axios.get("data/"+base+"_rgb.json").then(function(resp){
 		var proc = function(data, viz, hex){
@@ -103,7 +103,7 @@ function load(base, prefix){
 					strokeOpacity: 0,
 					fillColor: c,
 					fillOpacity: 0.6,
-					radius: 100,
+					radius: 400,
 					map: map});
 				circles[row.lkey] = p;
 			}
@@ -112,42 +112,15 @@ function load(base, prefix){
 }
 
 var files = [
-	"kobe_20011231",
-	"kobe_20021231",
-	"kobe_20031231",
-	"kobe_20041231",
-	"kobe_20051231",
-	"kobe_20061231",
-	"kobe_20071231",
-	"kobe_20081231",
-	"kobe_20090331",
-	"kobe_20090630",
-	"kobe_20090930",
-	"kobe_20091231",
-	"kobe_20100331",
-	"kobe_20100630",
-	"kobe_20100930",
-	"kobe_20101231",
-	"kobe_20110331",
-	"kobe_20110630",
-	"kobe_20110930",
-	"kobe_20111231",
-	"kobe_20120331",
-	"kobe_20120630",
-	"kobe_20120930",
-	"kobe_20121231",
-	"kobe_20130331",
-	"kobe_20130630",
-	"kobe_20130930",
-	"kobe_20131231",
-	"kobe_20140331",
-	"kobe_20140630",
-	"kobe_20140930",
-	"kobe_20141231",
-	"kobe_20150331",
-	"kobe_20150630",
-	"kobe_20150930",
-	"kobe_20151231",
+	"barcelona_2007",
+	"barcelona_2008",
+	"barcelona_2009",
+	"barcelona_2010",
+	"barcelona_2011",
+	"barcelona_2012",
+	"barcelona_2013",
+	"barcelona_2014",
+	"barcelona_2015",
 ];
 
 var loop_ct = 0;
@@ -157,7 +130,7 @@ function loop(){
 		resolve();
 	}).then(function(){
 		loop_ct++;
-		setTimeout(loop, 300)
+		setTimeout(loop, 400)
 	});
 }
 
@@ -165,7 +138,7 @@ var map;
 function initMap() {
 	var smt = new google.maps.StyledMapType([{
 		'stylers': [
-			{ 'gamma': 0.8 },
+			{'gamma': 0.8 },
 			{ 'saturation': -100 },
 			{ 'lightness': 20 }
 		]
@@ -174,16 +147,20 @@ function initMap() {
 	map.mapTypes.set("mono", smt);
 	map.setMapTypeId("mono");
 	map.fitBounds(new google.maps.LatLngBounds(
-		new google.maps.LatLng(34.6504, 135.116),
-		new google.maps.LatLng(34.7382, 135.2654)));
-
+		new google.maps.LatLng(41.370004, 2.0695258),
+		new google.maps.LatLng(41.4495761, 2.2280099)));
   var info = document.getElementById("info");
   info.parentNode.removeChild(info);
   info.style.display = "block";
 	map.controls[google.maps.ControlPosition.TOP_RIGHT].push(info);
 
-	setTimeout(loop, 300);
+	setTimeout(loop, 400);
 }
 
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWG7RNe916URO79mZeYBiMFfORHoHQSG4&callback=initMap"></script>
+
+
+See also
+--------
+- [はじめに]({{ "/blog/2016/05/13/intro.html" | prepend: site.baseurl }})
