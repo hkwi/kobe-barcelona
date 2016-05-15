@@ -1,0 +1,11 @@
+#map { height: 400px; }
+#mapH { height: 600px; width: 100%; }
+#map1 { height: 400px; width: 100%; }
+#map2 { height: 400px; width: 100%; }
+#hist { height: 300px; }
+#hR { height: 80px; }
+#hG { height: 80px; }
+#hB { height: 80px; }
+#wR { overflow: hidden; }
+#wG { overflow: hidden; }
+#wB { overflow: hidden; }

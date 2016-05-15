@@ -1,39 +1,18 @@
-<!doctype html>
-<html>
-<head>
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="default.css">
-</head>
-<body>
+---
+title: Kobe animation
+category: app
+layout: page
+---
 
-<div class="container-fluid">
- <div class="row">
-  <div class="col-md-2 sidebar">
-   <ul class="nav nav-sidebar">
-    <li><a href="k.html">Kobe</a></li>
-    <li><a href="k2.html">&nbsp; by animation</a></li>
-    <li><a href="b.html">Barcelona</a></li>
-    <li><a href="b2.html">&nbsp; by animation</a></li>
-   </ul>
-  </div>
-  <div class="col-md-10">
-   <h1>Animation: <span id="age_name"></span></h1>
-   <article class="topic">
-    <div id="mapH"></div>
-   </article>
-   <div class="row">
-    <div id="hist"></div>
-   </div>
-  </div>
- </div>
+<div id="mapH"></div>
+<div class="row">
+ <div id="hist"></div>
 </div>
+<div id="info" style="display:none; background-color:white; padding:15px; margin:5px"><h2 id="age_name"></h2></div>
 
-<script src="axios.min.js"></script>
-<script src="d3.min.js"></script>
-<script src="d3plus.min.js"></script>
+<script src="{{ "/assets/d3.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/d3plus.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/axios.min.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript">
 var hist = d3plus.viz().container("#hist").type("bar").id("name").text("").x("age").y("value");
 var histBase = ["#hR", "#hG", "#hB"].map(function(name){
@@ -54,7 +33,7 @@ function hex2(i){
 
 function expand(lkey, base){
 	var lkey = new Number(lkey);
-	axios.get("data/"+base+"_ages.json").then(function(resp){
+	axios.get(base+"_ages.json").then(function(resp){
 		for(var r=0; r<resp.data.length; r++){
 			var row = resp.data[r];
 			if(row.lkey == lkey){
@@ -79,9 +58,10 @@ function expand(lkey, base){
 	});
 }
 
+var age_name = document.getElementById("age_name");
 var circles = {}
-function load(base){
-	document.getElementById("age_name").innerHTML="Barcelona "+base.substring(10,14);
+function load(base, prefix){
+	age_name.innerHTML=prefix.substring(5,9)+"-"+prefix.substring(9,11)+"-"+prefix.substring(11,13);
 /*
 	axios.get("data/"+base+"_rgb.json").then(function(resp){
 		var proc = function(data, viz, hex){
@@ -98,7 +78,7 @@ function load(base){
 		proc(resp.data["B"], histBase[2], "#0000ff");
 	});
 */
-	axios.get("data/"+base+"_ages.json").then(function(resp){
+	axios.get(base+prefix+"_ages.json").then(function(resp){
 		var info = new google.maps.InfoWindow();
 		for(lkey in circles){
 			circles[lkey].setOptions({
@@ -123,7 +103,7 @@ function load(base){
 					strokeOpacity: 0,
 					fillColor: c,
 					fillOpacity: 0.6,
-					radius: 400,
+					radius: 100,
 					map: map});
 				circles[row.lkey] = p;
 			}
@@ -132,25 +112,52 @@ function load(base){
 }
 
 var files = [
-	"barcelona_2007",
-	"barcelona_2008",
-	"barcelona_2009",
-	"barcelona_2010",
-	"barcelona_2011",
-	"barcelona_2012",
-	"barcelona_2013",
-	"barcelona_2014",
-	"barcelona_2015",
+	"kobe_20011231",
+	"kobe_20021231",
+	"kobe_20031231",
+	"kobe_20041231",
+	"kobe_20051231",
+	"kobe_20061231",
+	"kobe_20071231",
+	"kobe_20081231",
+	"kobe_20090331",
+	"kobe_20090630",
+	"kobe_20090930",
+	"kobe_20091231",
+	"kobe_20100331",
+	"kobe_20100630",
+	"kobe_20100930",
+	"kobe_20101231",
+	"kobe_20110331",
+	"kobe_20110630",
+	"kobe_20110930",
+	"kobe_20111231",
+	"kobe_20120331",
+	"kobe_20120630",
+	"kobe_20120930",
+	"kobe_20121231",
+	"kobe_20130331",
+	"kobe_20130630",
+	"kobe_20130930",
+	"kobe_20131231",
+	"kobe_20140331",
+	"kobe_20140630",
+	"kobe_20140930",
+	"kobe_20141231",
+	"kobe_20150331",
+	"kobe_20150630",
+	"kobe_20150930",
+	"kobe_20151231",
 ];
 
 var loop_ct = 0;
 function loop(){
 	new Promise(function(resolve,reject){
-		load(files[loop_ct%files.length]);
+		load("{{ "/data/" | prepend: site.baseurl }}", files[loop_ct%files.length]);
 		resolve();
 	}).then(function(){
 		loop_ct++;
-		setTimeout(loop, 400)
+		setTimeout(loop, 300)
 	});
 }
 
@@ -158,7 +165,7 @@ var map;
 function initMap() {
 	var smt = new google.maps.StyledMapType([{
 		'stylers': [
-			{'gamma': 0.8 },
+			{ 'gamma': 0.8 },
 			{ 'saturation': -100 },
 			{ 'lightness': 20 }
 		]
@@ -167,14 +174,16 @@ function initMap() {
 	map.mapTypes.set("mono", smt);
 	map.setMapTypeId("mono");
 	map.fitBounds(new google.maps.LatLngBounds(
-		new google.maps.LatLng(41.370004, 2.0695258),
-		new google.maps.LatLng(41.4495761, 2.2280099)));
-	setTimeout(loop, 400);
+		new google.maps.LatLng(34.6504, 135.116),
+		new google.maps.LatLng(34.7382, 135.2654)));
+
+  var info = document.getElementById("info");
+  info.parentNode.removeChild(info);
+  info.style.display = "block";
+	map.controls[google.maps.ControlPosition.TOP_RIGHT].push(info);
+
+	setTimeout(loop, 300);
 }
 
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWG7RNe916URO79mZeYBiMFfORHoHQSG4&callback=initMap"></script>
-</body>
-</html>

@@ -1,54 +1,33 @@
-<!doctype html>
-<html>
-<head>
- <meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="default.css">
-</head>
-<body>
+---
+title: Barcelona picker
+category: app
+layout: page
+---
 
-<div class="container-fluid">
- <div class="row">
-  <div class="col-md-2 sidebar">
-   <ul class="nav nav-sidebar">
-    <li><a href="k.html">Kobe</a></li>
-    <li><a href="k2.html">&nbsp; by animation</a></li>
-    <li><a href="b.html">Barcelona</a></li>
-    <li><a href="b2.html">&nbsp; by animation</a></li>
-   </ul>
-  </div>
-  <div class="col-md-10">
-   <h1>Barcelona</h1>
-   <article class="topic">
-    <div id="map"></div>
-   </article>
-   <div class="row">
-    <div class="col-md-4">
-     <div id="hR"></div>
-     <div>(weight)=<span id="wR">?</span></div>
-     <div id="hG"></div>
-     <div>(weight)=<span id="wG">?</span></div>
-     <div id="hB"></div>
-     <div>(weight)=<span id="wB">?</span></div>
-    </div>
-    <div class="col-md-8">
-     <div id="lname">Please select a point in the map.</div>
-     <div id="hist"></div>
-    </div>
-   </div>
-  </div>
+<div id="map"></div>
+<div style="display:flex">
+ <div style="width:40%">
+  <div id="hR"></div>
+  <div>(weight)=<span id="wR">?</span></div>
+  <div id="hG"></div>
+  <div>(weight)=<span id="wG">?</span></div>
+  <div id="hB"></div>
+  <div>(weight)=<span id="wB">?</span></div>
+ </div>
+ <div style="width:60%">
+  <div id="lname">Please select a point in the map.</div>
+  <div id="hist"></div>
  </div>
 </div>
 
-<script src="axios.min.js"></script>
-<script src="d3.min.js"></script>
-<script src="d3plus.min.js"></script>
+<script src="{{ "/assets/d3.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/d3plus.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/axios.min.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript">
+var base = "{{ "/data/" | prepend: site.baseurl }}";
 var hist = d3plus.viz().container("#hist").type("bar").id("name").text("").x("age").y("value");
 
-axios.get("data/rgb_b.json").then(function(resp){
+axios.get(base+"/barcelona_2015_rgb.json").then(function(resp){
 	var proc = function(data, frag, hex){
 		var feed = [];
 		for(var i=0; i<data.length; i++){
@@ -75,7 +54,7 @@ function hex2(i){
 
 function expand(lkey){
 	var lkey = new Number(lkey);
-	axios.get("data/ages_b.json").then(function(resp){
+	axios.get(base+"/barcelona_2015_ages.json").then(function(resp){
 		for(var r=0; r<resp.data.length; r++){
 			var row = resp.data[r];
 			if(row.lkey == lkey){
@@ -104,7 +83,7 @@ var map;
 function initMap() {
 	var smt = new google.maps.StyledMapType([{
 		'stylers': [
-			{'gamma': 0.8 },
+			{ 'gamma': 0.8 },
 			{ 'saturation': -100 },
 			{ 'lightness': 20 }
 		]
@@ -115,7 +94,7 @@ function initMap() {
 	map.fitBounds(new google.maps.LatLngBounds(
 		new google.maps.LatLng(41.320004, 2.0695258),
 		new google.maps.LatLng(41.4695761, 2.2280099)));
-	axios.get("data/ages_b.json").then(function(resp){
+	axios.get(base + "/barcelona_2015_ages.json").then(function(resp){
 		var info = new google.maps.InfoWindow();
 		resp.data.forEach(function(row){
 			var c = "rgb("+Math.floor(255*row.R)+","+Math.floor(255*row.G)+","+Math.floor(255*row.B)+")";
@@ -146,8 +125,4 @@ function initMap() {
 	})
 }
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWG7RNe916URO79mZeYBiMFfORHoHQSG4&callback=initMap"></script>
-</body>
-</html>
