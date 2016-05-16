@@ -117,7 +117,7 @@ function initMap() {
 			google.maps.event.addDomListener(p, "click", function(o){
 				info.close();
 				info.setPosition(pos);
-				info.setContent(name+"<br>"+row.name);
+				info.setContent('<a href="{{ "/app/2016/05/15/barcelona.html" | prepend: site.baseurl }}?area='+row.lkey+'">'+name+"</a><br>"+row.name);
 				info.open(map);
 				expand(row.lkey);
 			});
