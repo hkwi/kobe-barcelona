@@ -109,7 +109,7 @@ def xls2json(filename):
 		raise Exception("column range error")
 	
 	model = sklearn.decomposition.NMF(3)
-	w = model.fit_transform(data.iloc[:,s:e].as_matrix())
+	w = model.fit_transform(data.iloc[:,s:e])
 	b = model.components_
 	cidx = pd.Series.sort_values(pd.Series((range(len(b.T))*b).sum(axis=1)/b.sum(axis=1), index=[0,1,2]))
 	
@@ -186,4 +186,3 @@ fs = ["juuki1312.xls",
 ]
 for f in fs:
 	xls2json(f)
-
