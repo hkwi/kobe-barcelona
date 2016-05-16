@@ -1,3 +1,4 @@
+import datetime
 import pandas as pd
 import sqlite3
 import json
@@ -37,15 +38,15 @@ def xls2json(filename):
 			zensi = True
 		
 		y = int(m.groupdict()["y"])
-		base = "kobe_%04d" % (y - 12 + 2000)
+		base = [y - 12 + 2000]
 		if y < 21:
-			base += "1231"
+			base += [12,31]
 		else:
 			base += {
-				"03": "0331",
-				"06": "0630",
-				"09": "0930",
-				"12": "1231",
+				"03": [ 3,31],
+				"06": [ 6,30],
+				"09": [ 9,30],
+				"12": [12,31],
 			}[m.groupdict()["m"]]
 	else:
 		raise Exception("base name error")
@@ -99,11 +100,11 @@ def xls2json(filename):
 	s = e = -1
 	if s < 0 or e < 0:
 		s = find("0～4歳")
-		e = find("80歳以上")
+		e = find("80歳以上")+1
 	
 	if s < 0 or e < 0:
 		s = find("0歳")
-		e = find("100歳以上")
+		e = find("100歳以上")+1
 	
 	if s < 0 or e < 0:
 		raise Exception("column range error")
@@ -126,24 +127,30 @@ def xls2json(filename):
 	pdn = pd.DataFrame(n.T, index=data.index, columns=rgb)
 	data = pd.concat([data, pdw, pdn], axis=1)
 	cdata = pd.DataFrame(b.T, columns=rgb)
+	return dict(data=data, cdata=cdata, components=model.components_,
+		total=data.iloc[:,s:e].sum(),
+		age_index=[s,e],
+		base=base)
 
+def write_data(prefix=None, data=None, age_index=[], **kwargs):
 	out = []
 	for idx, d in data.iterrows():
 		out.append(dict(lat=d["lat"], lng=d["lng"],
 			wR=d["wR"], wG=d["wG"], wB=d["wB"],
 			R=d["R"], G=d["G"], B=d["B"],
-			ages=[int(x) for x in d.iloc[s:e]],
+			ages=[int(x) for x in d.iloc[age_index[0]:age_index[1]]],
 			lkey=d["lkey"], name=d["lname"],
 			ku=d["ku"], cho=d["cho"]))
 
-	with open(base+"_ages.json", "w", encoding="UTF-8") as fp:
+	with open(prefix+"_ages.json", "w", encoding="UTF-8") as fp:
 		json.dump(out, fp, ensure_ascii=False, allow_nan=False)
 
+def write_cdata(prefix, cdata):
 	out = dict()
 	for idx, d in cdata.T.iterrows():
 		out[idx] = list(d)
 
-	with open(base+"_rgb.json", "w", encoding="UTF-8") as fp:
+	with open(prefix+"_rgb.json", "w", encoding="UTF-8") as fp:
 		json.dump(out, fp, allow_nan=False)
 
 # これ以前のデータは総人数しかなく、ベクトル化できない
@@ -184,5 +191,49 @@ fs = ["juuki1312.xls",
 "zensi2709.xls",
 "zensi2712.xls",
 ]
-for f in fs:
-	xls2json(f)
+if __name__=="__main__":
+	for f in fs:
+		r = xls2json(f)
+		r["prefix"] = "kobe_%04d%02d%02d" % tuple(r["base"])
+		write_data(**r)
+		write_cdata(r["prefix"], r["cdata"])
+
+def create_total_history():
+	o = {}
+	for f in fs:
+		zensi = False
+		m = re.match(r"(?P<p>juuki|zensi)(?P<y>\d{2})(?P<m>\d{2}).xls", f)
+		if m.groupdict()["p"]=="zensi":
+			zensi = True
+		
+		y = int(m.groupdict()["y"])
+		base = [y - 12 + 2000]
+		if y < 21:
+			base += [12,31]
+		else:
+			base += {
+				"03": [ 3,31],
+				"06": [ 6,30],
+				"09": [ 9,30],
+				"12": [12,31],
+			}[m.groupdict()["m"]]
+		r = xls2json(f)
+		total = r["total"]
+		(s,e) = r["age_index"]
+		if e - s > 40:
+			p = r["data"].iloc[:,s:e].sum()
+			total = [p.iloc[5*i:5*i+5].sum() for i in range(16)]
+			total += [p.iloc[80:].sum()]
+		
+		o[datetime.date(*base)]=total
+	return o
+
+def animate_5year():
+	o = create_total_history()
+	while True:
+		for k in sorted(o.keys()):
+			v = o[k]
+			a = plt.plot(range(len(v)), v, "o-")
+			a[0].axes.set_ylim(ymin=0)
+			plt.pause(.1)
+			plt.cla()
