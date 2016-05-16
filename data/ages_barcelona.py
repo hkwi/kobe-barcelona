@@ -2,6 +2,8 @@ import pandas as pd
 import sqlite3
 import json
 import re
+import sklearn.decomposition
+import numpy
 
 filename = "tpob_2015-cp02.csv"
 
@@ -38,7 +40,7 @@ def csv2json(filename):
 		if not m:
 			continue
 		
-		barris = m.group(1).strip()
+		barris = m.group(1).strip().replace("AEI ","")
 		g = query_geo(barris)
 		if g:
 			data.append(pd.concat([row, pd.Series(g)]))
@@ -76,7 +78,7 @@ def csv2json(filename):
 			R=d["R"], G=d["G"], B=d["B"],
 			ages=[int(x) for x in d["0 anys":e]],
 			lkey=d["lkey"], name=d["lname"],
-			barris=d["Barris"]))
+			barris=d["barris"]))
 	
 	with open(base+"_ages.json", "w", encoding="UTF-8") as fp:
 		json.dump(out, fp, ensure_ascii=False, allow_nan=False)
