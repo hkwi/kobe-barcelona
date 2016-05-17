@@ -51,33 +51,32 @@ function int2(i){
 
 <h2 id="area_name"></h2>
 
-他の場所は [picker]({{"/app/2016/05/10/barcelona.html" | prepend: site.baseurl}}) から選択するのが簡単です。
+Please use [picker]({{"/app/2016/05/10/barcelona.html" | prepend: site.baseurl}}) app to select another region.
 
-### 年齢別人口 @<span id="pop_date">2015</span>
+### Population by age @<span id="pop_date">2015</span>
 
 <div id="pop" style="height:250px; width:500px"></div>
 
-横軸の原点は0歳です。アニメーションで再生することもできます。
-:repeat: <input id="pop_play"
+X axis originates from 0 years old. You can play in animation; :repeat: <input id="pop_play"
  type="button" value="start" onclick="pop_loop_enter()"/>
 
 <script>
 var pop = d3plus.viz().container("#pop").type("bar")
 	.id("name")
-	.y("人数")
-	.x("年齢")
+	.y("count")
+	.x("age")
 	.color("hex");
 axios.get(data+"/barcelona_2015_ages.json").then(function(resp){
 	resp.data.forEach(function(row){
 		if(row.lkey==area_id){
 			var data = [];
 			for(var i=0; i<row.ages.length; i++){
-				data.push({"name":"人口", "人数":row.ages[i], "年齢":i});
+				data.push({"name":"population", "count":row.ages[i], "age":i});
 			}
 			var hex = ["R","G","B"].map(function(a){
 				return hex2(Math.floor(255*row[a]));
 			}).join("");
-			pop.data(data).attrs([{name:"人口","hex":"#"+hex}]).draw();
+			pop.data(data).attrs([{name:"population","hex":"#"+hex}]).draw();
 			document.getElementById("area_name").innerHTML = row.barris;
 		}
 	});
@@ -131,7 +130,7 @@ function pop_loop(){
 </script>
 
 
-### 世代構成の変化
+### Household trend
 
 <div style="display:flex">
 <div id="vec" style="height:300px; width:300px"></div>
@@ -144,14 +143,14 @@ var vec = d3plus.viz().container("#vec").type("scatter")
 	.size(5)
 	.color("hex")
 	.legend(false)
-	.x({value:"R",range:[0,1],label:"R（高齢）"})
-	.y({value:"G",range:[0,1],label:"G（若年）"});
+	.x({value:"R",range:[0,1],label:"R(elder)"})
+	.y({value:"G",range:[0,1],label:"G(young)"});
 var vec_r = d3plus.viz().container("#vec_r").type("line")
 	.id("name")
 	.color("hex")
 	.legend(false)
 	.x("date")
-	.y({value:"G",range:[0,1],label:"G（若年）"});
+	.y({value:"G",range:[0,1],label:"G(young)"});
 
 var vec_proc = 0;
 var vec_data = [];
