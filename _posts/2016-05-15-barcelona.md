@@ -111,12 +111,12 @@ function pop_loop(){
 			if(row.lkey==area_id){
 				var data = [];
 				for(var i=0; i<row.ages.length; i++){
-					data.push({"name":"人口","人数":row.ages[i],"年齢":i});
+					data.push({"name":"population","count":row.ages[i],"age":i});
 				}
 				var hex = ["R","G","B"].map(function(a){
 					return hex2(Math.floor(255*row[a]));
 				}).join("");
-				pop.data(data).attrs([{name:"人口","hex":"#"+hex}]).draw();
+				pop.data(data).attrs([{name:"population","hex":"#"+hex}]).draw();
 				document.getElementById("pop_date").innerHTML = f.substring(10);
 			}
 		});
