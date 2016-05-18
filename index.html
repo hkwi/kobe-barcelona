@@ -48,7 +48,7 @@ function initMap() {
 	  d1.innerHTML=html;
 	  return d1;
 	}
-	axios.get(base + "/kobe_20151231_ages.json").then(function(resp){
+	axios.get(base + "/kobe_union_2015_ages.json").then(function(resp){
 	  resp.data.forEach(function(row){
 	    var c = "rgb("+Math.floor(256*row.R)+","+Math.floor(256*row.G)+","+Math.floor(256*row.B)+")";
 	    new google.maps.Circle({
@@ -61,7 +61,7 @@ function initMap() {
 	      map: map1});
 	  });
 	})
-	axios.get(base + "/barcelona_2015_ages.json").then(function(resp){
+	axios.get(base + "/barcelona_union_2015_ages.json").then(function(resp){
 	  resp.data.forEach(function(row){
 	    var c = "rgb("+Math.floor(256*row.R)+","+Math.floor(256*row.G)+","+Math.floor(256*row.B)+")";
 	    new google.maps.Circle({
