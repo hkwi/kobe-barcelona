@@ -3,9 +3,8 @@ import sqlite3
 import json
 import re
 import sklearn.decomposition
+import sklearn.preprocessing
 import numpy
-
-filename = "tpob_2015-cp02.csv"
 
 areas_db = sqlite3.connect("areas_b.db")
 areas_db.row_factory = sqlite3.Row
@@ -61,10 +60,8 @@ def csv2json(filename):
 	rgb = [u[1] for u in sorted(zip(cidx.index, "GBR"))]
 	
 	pdw = pd.DataFrame(w, index=data.index, columns=["w"+x for x in rgb])
-	w2 = numpy.sqrt((w*w).sum(axis=1))
-	w2[w2==0] = 1.0
-	n=w.T/w2
-	pdn = pd.DataFrame(n.T, index=data.index, columns=rgb)
+	n = sklearn.preprocessing.normalize(w)
+	pdn = pd.DataFrame(n, index=data.index, columns=rgb)
 	data = pd.concat([data, pdw, pdn], axis=1)
 	cdata = pd.DataFrame(b.T, columns=rgb)
 
@@ -81,14 +78,14 @@ def csv2json(filename):
 			barris=d["barris"]))
 	
 	with open(base+"_ages.json", "w", encoding="UTF-8") as fp:
-		json.dump(out, fp, ensure_ascii=False, allow_nan=False)
+		json.dump(out, fp, ensure_ascii=False, allow_nan=False, sort_keys=True)
 	
 	out = dict()
 	for idx, d in cdata.T.iterrows():
 		out[idx] = list(d)
 	
 	with open(base+"_rgb.json", "w", encoding="UTF-8") as fp:
-		json.dump(out, fp, allow_nan=False)
+		json.dump(out, fp, allow_nan=False, sort_keys=True)
 
 fs = [
 	"tpob_2007-cp02.csv",
