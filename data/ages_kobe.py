@@ -4,6 +4,7 @@ import sqlite3
 import json
 import numpy
 import sklearn.decomposition
+import sklearn.preprocessing
 import re
 import os.path
 
@@ -121,10 +122,8 @@ def xls2json(filename):
 #		rgb = ["R","G","B"]
 
 	pdw = pd.DataFrame(w, index=data.index, columns=["w"+x for x in rgb])
-	w2 = numpy.sqrt((w*w).sum(axis=1))
-	w2[w2==0] = 1.0
-	n=w.T/w2
-	pdn = pd.DataFrame(n.T, index=data.index, columns=rgb)
+	n = sklearn.preprocessing.normalize(w)
+	pdn = pd.DataFrame(n, index=data.index, columns=rgb)
 	data = pd.concat([data, pdw, pdn], axis=1)
 	cdata = pd.DataFrame(b.T, columns=rgb)
 	return dict(data=data, cdata=cdata, components=model.components_,
@@ -143,7 +142,7 @@ def write_data(prefix=None, data=None, age_index=[], **kwargs):
 			ku=d["ku"], cho=d["cho"]))
 
 	with open(prefix+"_ages.json", "w", encoding="UTF-8") as fp:
-		json.dump(out, fp, ensure_ascii=False, allow_nan=False)
+		json.dump(out, fp, ensure_ascii=False, allow_nan=False, sort_keys=True)
 
 def write_cdata(prefix, cdata):
 	out = dict()
@@ -151,7 +150,7 @@ def write_cdata(prefix, cdata):
 		out[idx] = list(d)
 
 	with open(prefix+"_rgb.json", "w", encoding="UTF-8") as fp:
-		json.dump(out, fp, allow_nan=False)
+		json.dump(out, fp, allow_nan=False, sort_keys=True)
 
 # これ以前のデータは総人数しかなく、ベクトル化できない
 fs = ["juuki1312.xls",
@@ -190,6 +189,7 @@ fs = ["juuki1312.xls",
 "zensi2706.xls",
 "zensi2709.xls",
 "zensi2712.xls",
+"zensi2803.xls",
 ]
 if __name__=="__main__":
 	for f in fs:
