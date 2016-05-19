@@ -52,6 +52,7 @@ function int2(i){
 <h2 id="area_name"></h2>
 
 Please use [picker]({{"/app/2016/05/10/barcelona.html" | prepend: site.baseurl}}) app to select another region.
+Data from Barcelona opendata "[Age of the population (year by year). Reading register of inhabitants.](http://opendata.bcn.cat/opendata/en/catalog/POBLACIO)".
 
 ### Population by age @<span id="pop_date">2015</span>
 

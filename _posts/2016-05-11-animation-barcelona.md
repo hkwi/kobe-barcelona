@@ -5,10 +5,9 @@ layout: page
 ---
 
 <div id="mapH"></div>
-<div class="row">
- <div id="hist"></div>
-</div>
 <div id="info" style="display:none; background-color:white; padding:15px; margin:5px"><h2 id="age_name"></h2></div>
+
+Data from Barcelona opendata "[Age of the population (year by year). Reading register of inhabitants.](http://opendata.bcn.cat/opendata/en/catalog/POBLACIO)".
 
 <script src="{{ "/assets/d3.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/d3plus.js" | prepend: site.baseurl }}"></script>

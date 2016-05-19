@@ -5,10 +5,9 @@ layout: page
 ---
 
 <div id="mapH"></div>
-<div class="row">
- <div id="hist"></div>
-</div>
 <div id="info" style="display:none; background-color:white; padding:15px; margin:5px"><h2 id="age_name"></h2></div>
+
+Data from city of Kobe opendata "[１歳階級別人口, 5歳階級別人口](http://www.city.kobe.lg.jp/information/data/statistics/toukei/jinkou/juukijinkou.html)".
 
 <script src="{{ "/assets/d3.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/d3plus.js" | prepend: site.baseurl }}"></script>
@@ -178,9 +177,9 @@ function initMap() {
 		new google.maps.LatLng(34.6504, 135.116),
 		new google.maps.LatLng(34.7382, 135.2654)));
 
-  var info = document.getElementById("info");
-  info.parentNode.removeChild(info);
-  info.style.display = "block";
+	var info = document.getElementById("info");
+	info = info.parentNode.removeChild(info);
+	info.style.display = "block";
 	map.controls[google.maps.ControlPosition.TOP_RIGHT].push(info);
 
 	setTimeout(loop, 300);

@@ -20,6 +20,8 @@ layout: page
  </div>
 </div>
 
+Data from Barcelona opendata "[Age of the population (year by year). Reading register of inhabitants.](http://opendata.bcn.cat/opendata/en/catalog/POBLACIO)".
+
 <script src="{{ "/assets/d3.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/d3plus.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/axios.min.js" | prepend: site.baseurl }}"></script>
