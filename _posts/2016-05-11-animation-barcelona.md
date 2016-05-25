@@ -5,7 +5,18 @@ layout: page
 ---
 
 <div id="mapH"></div>
-<div id="info" style="display:none; background-color:white; padding:15px; margin:5px"><h2 id="age_name"></h2></div>
+<div id="info" style="display:none; background-color:white; padding:15px; margin:5px"><h2 id="age_name"></h2>:repeat:<input id="toggle" type="button" value="pause"/></div>
+<script>
+var toggle = document.getElementById("toggle")
+toggle.onclick = function(e){
+	if(toggle.value=="pause"){
+		toggle.value = "play";
+	}else{
+		toggle.value = "pause";
+		loop();
+	}
+}
+</script>
 
 Data from Barcelona opendata "[Age of the population (year by year). Reading register of inhabitants.](http://opendata.bcn.cat/opendata/en/catalog/POBLACIO)".
 
@@ -124,6 +135,9 @@ var files = [
 
 var loop_ct = 0;
 function loop(){
+	if(toggle.value=="play"){
+		return;
+	}
 	new Promise(function(resolve,reject){
 		load("{{ "/data/" | prepend: site.baseurl }}", files[loop_ct%files.length]);
 		resolve();

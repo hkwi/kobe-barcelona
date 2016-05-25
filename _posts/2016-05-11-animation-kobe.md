@@ -5,7 +5,18 @@ layout: page
 ---
 
 <div id="mapH"></div>
-<div id="info" style="display:none; background-color:white; padding:15px; margin:5px"><h2 id="age_name"></h2></div>
+<div id="info" style="display:none; background-color:white; padding:15px; margin:5px"><h2 id="age_name"></h2>:repeat:<input id="toggle" type="button" value="pause"/></div>
+<script>
+var toggle = document.getElementById("toggle")
+toggle.onclick = function(e){
+	if(toggle.value=="pause"){
+		toggle.value = "play";
+	}else{
+		toggle.value = "pause";
+		loop();
+	}
+}
+</script>
 
 Data from city of Kobe opendata "[１歳階級別人口, 5歳階級別人口](http://www.city.kobe.lg.jp/information/data/statistics/toukei/jinkou/juukijinkou.html)".
 
@@ -59,7 +70,7 @@ function expand(lkey, base){
 
 var age_name = document.getElementById("age_name");
 var circles = {}
-function load(base, prefix){
+function load(base, prefix, resolve){
 	age_name.innerHTML=prefix.substring(5,9)+"-"+prefix.substring(9,11)+"-"+prefix.substring(11,13);
 /*
 	axios.get("data/"+base+"_rgb.json").then(function(resp){
@@ -107,6 +118,7 @@ function load(base, prefix){
 				circles[row.lkey] = p;
 			}
 		});
+		resolve();
 	})
 }
 
@@ -152,12 +164,14 @@ var files = [
 
 var loop_ct = 0;
 function loop(){
+	if(toggle.value=="play"){
+		return;
+	}
 	new Promise(function(resolve,reject){
-		load("{{ "/data/" | prepend: site.baseurl }}", files[loop_ct%files.length]);
-		resolve();
+		load("{{ "/data/" | prepend: site.baseurl }}", files[loop_ct%files.length], resolve);
 	}).then(function(){
 		loop_ct++;
-		setTimeout(loop, 300)
+		setTimeout(loop, 300);
 	});
 }
 
