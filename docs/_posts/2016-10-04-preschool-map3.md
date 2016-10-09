@@ -11,7 +11,7 @@ layout: page
 <script src="{{ "/assets/axios.min.js" | prepend: site.baseurl }}"></script>
 <div id="nb"></div>
 <script type="text/javascript">
-axios.get("https://raw.githubusercontent.com/hkwi/kobe-barcelona/master/notes/2016-10-03-preschool-map2.ipynb").then(function(resp){
+axios.get("https://raw.githubusercontent.com/hkwi/kobe-barcelona/master/notes/2016-10-04-preschool-map3.ipynb").then(function(resp){
 document.getElementById("nb").appendChild(nb.parse(resp.data).render());
 Prism.highlightAll();
 })
