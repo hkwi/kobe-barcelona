@@ -1,5 +1,5 @@
 ---
-title: 神戸市待機児童マップ分析（０～５歳）
+title: 神戸市児童定員マップ
 category: app
 layout: page
 ---
