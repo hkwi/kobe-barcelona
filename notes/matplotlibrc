@@ -1,0 +1,4 @@
+datapath: .
+font.family: IPAexGothic
+#font.sans-serif: IPAexGothic
+animation.ffmpeg_path: C:\tools\ffmpeg\bin\ffmpeg.exe
