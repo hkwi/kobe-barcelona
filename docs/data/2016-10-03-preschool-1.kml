@@ -4,10 +4,10 @@
         <name>KmlFile</name>
     <Style id="color0">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff80ddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8080ddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>0</name>
+    <name>幼保連携型みのり認定こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color0</styleUrl>
     <Polygon>
@@ -67,10 +67,10 @@
     </Placemark>
     <Style id="color1">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5fc3fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805fc3fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>1</name>
+    <name>聖ミカエル幼保連携型認定こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color1</styleUrl>
     <Polygon>
@@ -112,10 +112,10 @@
     </Placemark>
     <Style id="color2">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff65cafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8065cafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>2</name>
+    <name>幼保連携型認定こども園　はたつかこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color2</styleUrl>
     <Polygon>
@@ -163,10 +163,10 @@
     </Placemark>
     <Style id="color3">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4aaefd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804aaefd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>3</name>
+    <name>大慈ほまれ幼保連携型認定こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color3</styleUrl>
     <Polygon>
@@ -207,10 +207,10 @@
     </Placemark>
     <Style id="color6">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9bebfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809bebfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>6</name>
+    <name>葺合保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color6</styleUrl>
     <Polygon>
@@ -238,10 +238,10 @@
     </Placemark>
     <Style id="color7">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5dc2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805dc2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>7</name>
+    <name>生田保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color7</styleUrl>
     <Polygon>
@@ -289,10 +289,10 @@
     </Placemark>
     <Style id="color8">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5bc0fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805bc0fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>8</name>
+    <name>たちばな保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color8</styleUrl>
     <Polygon>
@@ -342,10 +342,10 @@
     </Placemark>
     <Style id="color9">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3e92fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803e92fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>9</name>
+    <name>みなと保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color9</styleUrl>
     <Polygon>
@@ -469,10 +469,10 @@
     </Placemark>
     <Style id="color10">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4bb0fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804bb0fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>10</name>
+    <name>宮本保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color10</styleUrl>
     <Polygon>
@@ -522,10 +522,10 @@
     </Placemark>
     <Style id="color11">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff46a5fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8046a5fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>11</name>
+    <name>二宮保育所※</name>
     <visibility>1</visibility>
     <styleUrl>#color11</styleUrl>
     <Polygon>
@@ -568,10 +568,10 @@
     </Placemark>
     <Style id="color12">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6fd2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806fd2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>12</name>
+    <name>神若保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color12</styleUrl>
     <Polygon>
@@ -628,10 +628,10 @@
     </Placemark>
     <Style id="color13">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff68ccfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8068ccfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>13</name>
+    <name>古湊保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color13</styleUrl>
     <Polygon>
@@ -682,10 +682,10 @@
     </Placemark>
     <Style id="color14">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5dc2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805dc2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>14</name>
+    <name>友愛幼児園</name>
     <visibility>1</visibility>
     <styleUrl>#color14</styleUrl>
     <Polygon>
@@ -724,10 +724,10 @@
     </Placemark>
     <Style id="color15">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff46a4fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8046a4fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>15</name>
+    <name>めぐみ愛児園</name>
     <visibility>1</visibility>
     <styleUrl>#color15</styleUrl>
     <Polygon>
@@ -767,10 +767,10 @@
     </Placemark>
     <Style id="color16">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff46a4fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8046a4fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>16</name>
+    <name>協和保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color16</styleUrl>
     <Polygon>
@@ -845,10 +845,10 @@
     </Placemark>
     <Style id="color17">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff65cafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8065cafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>17</name>
+    <name>大慈保育園　　※分園を含む</name>
     <visibility>1</visibility>
     <styleUrl>#color17</styleUrl>
     <Polygon>
@@ -939,10 +939,10 @@
     </Placemark>
     <Style id="color18">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3a86fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803a86fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>18</name>
+    <name>ポートピア保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color18</styleUrl>
     <Polygon>
@@ -1054,10 +1054,10 @@
     </Placemark>
     <Style id="color19">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3882fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803882fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>19</name>
+    <name>真生きらきら保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color19</styleUrl>
     <Polygon>
@@ -1095,10 +1095,10 @@
     </Placemark>
     <Style id="color20">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2231ee</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802231ee</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>20</name>
+    <name>神女中山手保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color20</styleUrl>
     <Polygon>
@@ -1133,10 +1133,10 @@
     </Placemark>
     <Style id="color21">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff85e0fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8085e0fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>21</name>
+    <name>成晃ひかり保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color21</styleUrl>
     <Polygon>
@@ -1238,10 +1238,10 @@
     </Placemark>
     <Style id="color22">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff260080</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80260080</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>22</name>
+    <name>北野坂保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color22</styleUrl>
     <Polygon>
@@ -1288,10 +1288,10 @@
     </Placemark>
     <Style id="color23">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff69cdfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8069cdfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>23</name>
+    <name>（仮称）元町ちどり保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color23</styleUrl>
     <Polygon>
@@ -1338,10 +1338,10 @@
     </Placemark>
     <Style id="color26">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3472fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803472fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>26</name>
+    <name>Ohana保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color26</styleUrl>
     <Polygon>
@@ -1371,10 +1371,10 @@
     </Placemark>
     <Style id="color27">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2641f6</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802641f6</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>27</name>
+    <name>トアハッピー保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color27</styleUrl>
     <Polygon>
@@ -1411,10 +1411,10 @@
     </Placemark>
     <Style id="color28">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff1e14da</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>801e14da</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>28</name>
+    <name>さんのみやキッズ</name>
     <visibility>1</visibility>
     <styleUrl>#color28</styleUrl>
     <Polygon>
@@ -1456,10 +1456,10 @@
     </Placemark>
     <Style id="color29">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa1edff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a1edff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>29</name>
+    <name>ポピンズ神戸旧居留地</name>
     <visibility>1</visibility>
     <styleUrl>#color29</styleUrl>
     <Polygon>
@@ -1570,10 +1570,10 @@
     </Placemark>
     <Style id="color30">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff44a0fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8044a0fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>30</name>
+    <name>スペースかすがのみち保育ルーム</name>
     <visibility>1</visibility>
     <styleUrl>#color30</styleUrl>
     <Polygon>
@@ -1614,10 +1614,10 @@
     </Placemark>
     <Style id="color31">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4098fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804098fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>31</name>
+    <name>小規模保育園　はーもにぃ</name>
     <visibility>1</visibility>
     <styleUrl>#color31</styleUrl>
     <Polygon>
@@ -1655,10 +1655,10 @@
     </Placemark>
     <Style id="color32">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff64c8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8064c8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>32</name>
+    <name>新神戸アイテラス保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color32</styleUrl>
     <Polygon>
@@ -1707,10 +1707,10 @@
     </Placemark>
     <Style id="color33">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2500bd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802500bd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>33</name>
+    <name>小規模保育園なぎさ</name>
     <visibility>1</visibility>
     <styleUrl>#color33</styleUrl>
     <Polygon>
@@ -1743,10 +1743,10 @@
     </Placemark>
     <Style id="color34">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4aaefd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804aaefd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>34</name>
+    <name>元町キッズルーム</name>
     <visibility>1</visibility>
     <styleUrl>#color34</styleUrl>
     <Polygon>
@@ -1789,10 +1789,10 @@
     </Placemark>
     <Style id="color35">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff81defe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8081defe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>35</name>
+    <name>フォアベルク保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color35</styleUrl>
     <Polygon>
@@ -1850,10 +1850,10 @@
     </Placemark>
     <Style id="color36">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff67cbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8067cbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>36</name>
+    <name>キッズパートナー三宮</name>
     <visibility>1</visibility>
     <styleUrl>#color36</styleUrl>
     <Polygon>
@@ -1897,10 +1897,10 @@
     </Placemark>
     <Style id="color37">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9bebfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809bebfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>37</name>
+    <name>神戸ＹＷＣＡ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color37</styleUrl>
     <Polygon>
@@ -1940,10 +1940,10 @@
     </Placemark>
     <Style id="color38">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2231ee</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802231ee</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>38</name>
+    <name>神戸オリーブ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color38</styleUrl>
     <Polygon>
@@ -1976,10 +1976,10 @@
     </Placemark>
     <Style id="color39">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2439f2</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802439f2</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>39</name>
+    <name>京進のほいくえんＨＯＰＰＡ神戸駅前園</name>
     <visibility>1</visibility>
     <styleUrl>#color39</styleUrl>
     <Polygon>
@@ -2031,10 +2031,10 @@
     </Placemark>
     <Style id="color40">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa2eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a2eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>40</name>
+    <name>はーもにぃⅠｓｏｂｅ</name>
     <visibility>1</visibility>
     <styleUrl>#color40</styleUrl>
     <Polygon>
@@ -2089,10 +2089,10 @@
     </Placemark>
     <Style id="color41">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff92e6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8092e6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>41</name>
+    <name>幼保連携型認定こども園　聖ニコラス天使園</name>
     <visibility>1</visibility>
     <styleUrl>#color41</styleUrl>
     <Polygon>
@@ -2149,10 +2149,10 @@
     </Placemark>
     <Style id="color42">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff53b8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8053b8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>42</name>
+    <name>幼保連携型認定こども園　夢　　※分園を含む　※１</name>
     <visibility>1</visibility>
     <styleUrl>#color42</styleUrl>
     <Polygon>
@@ -2204,10 +2204,10 @@
     </Placemark>
     <Style id="color43">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff78dafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8078dafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>43</name>
+    <name>幼保連携型認定こども園　石屋川くるみ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color43</styleUrl>
     <Polygon>
@@ -2254,10 +2254,10 @@
     </Placemark>
     <Style id="color44">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2029ea</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802029ea</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>44</name>
+    <name>幼保連携型認定こども園　本山北町あすのこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color44</styleUrl>
     <Polygon>
@@ -2317,10 +2317,10 @@
     </Placemark>
     <Style id="color45">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ce3fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ce3fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>45</name>
+    <name>認定こども園　魚崎COCORO</name>
     <visibility>1</visibility>
     <styleUrl>#color45</styleUrl>
     <Polygon>
@@ -2407,10 +2407,10 @@
     </Placemark>
     <Style id="color46">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff57bcfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8057bcfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>46</name>
+    <name>幼保連携型認定こども園　きらり保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color46</styleUrl>
     <Polygon>
@@ -2449,10 +2449,10 @@
     </Placemark>
     <Style id="color47">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff56bbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8056bbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>47</name>
+    <name>幼保連携型認定こども園　きたおおぎこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color47</styleUrl>
     <Polygon>
@@ -2486,10 +2486,10 @@
     </Placemark>
     <Style id="color48">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4aaefd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804aaefd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>48</name>
+    <name>認定こども園　松蔭おかもと保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color48</styleUrl>
     <Polygon>
@@ -2539,10 +2539,10 @@
     </Placemark>
     <Style id="color49">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff60c5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8060c5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>49</name>
+    <name>幼保連携型認定こども園　第２きらり保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color49</styleUrl>
     <Polygon>
@@ -2640,10 +2640,10 @@
     </Placemark>
     <Style id="color50">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2e5efc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802e5efc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>50</name>
+    <name>幼保連携型認定こども園　同朋住吉台こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color50</styleUrl>
     <Polygon>
@@ -2794,10 +2794,10 @@
     </Placemark>
     <Style id="color51">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7eddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807eddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>51</name>
+    <name>幼保連携型認定こども園　甲南すこやかこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color51</styleUrl>
     <Polygon>
@@ -2844,10 +2844,10 @@
     </Placemark>
     <Style id="color52">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff64c8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8064c8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>52</name>
+    <name>幼保連携型認定こども園　モーツァルトこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color52</styleUrl>
     <Polygon>
@@ -2874,10 +2874,10 @@
     </Placemark>
     <Style id="color53">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5abffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805abffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>53</name>
+    <name>認定こども園　あおい宙</name>
     <visibility>1</visibility>
     <styleUrl>#color53</styleUrl>
     <Polygon>
@@ -2907,10 +2907,10 @@
     </Placemark>
     <Style id="color54">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff60c5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8060c5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>54</name>
+    <name>幼保連携型認定こども園　甲南こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color54</styleUrl>
     <Polygon>
@@ -3022,10 +3022,10 @@
     </Placemark>
     <Style id="color56">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9debfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809debfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>56</name>
+    <name>魚崎保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color56</styleUrl>
     <Polygon>
@@ -3118,10 +3118,10 @@
     </Placemark>
     <Style id="color57">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff92e6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8092e6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>57</name>
+    <name>東灘本庄保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color57</styleUrl>
     <Polygon>
@@ -3194,10 +3194,10 @@
     </Placemark>
     <Style id="color58">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff95e7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8095e7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>58</name>
+    <name>御影保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color58</styleUrl>
     <Polygon>
@@ -3234,10 +3234,10 @@
     </Placemark>
     <Style id="color59">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2e5cfc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802e5cfc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>59</name>
+    <name>本山保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color59</styleUrl>
     <Polygon>
@@ -3278,10 +3278,10 @@
     </Placemark>
     <Style id="color60">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb1f4ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b1f4ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>60</name>
+    <name>渦森台保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color60</styleUrl>
     <Polygon>
@@ -3323,10 +3323,10 @@
     </Placemark>
     <Style id="color61">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff47a8fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8047a8fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>61</name>
+    <name>中野保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color61</styleUrl>
     <Polygon>
@@ -3359,10 +3359,10 @@
     </Placemark>
     <Style id="color62">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb7f6ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b7f6ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>62</name>
+    <name>瀬戸保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color62</styleUrl>
     <Polygon>
@@ -3410,10 +3410,10 @@
     </Placemark>
     <Style id="color63">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9eecfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809eecfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>63</name>
+    <name>田中保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color63</styleUrl>
     <Polygon>
@@ -3446,10 +3446,10 @@
     </Placemark>
     <Style id="color64">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ce3fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ce3fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>64</name>
+    <name>浜御影保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color64</styleUrl>
     <Polygon>
@@ -3492,10 +3492,10 @@
     </Placemark>
     <Style id="color65">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff71d5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8071d5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>65</name>
+    <name>住吉公園保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color65</styleUrl>
     <Polygon>
@@ -3531,10 +3531,10 @@
     </Placemark>
     <Style id="color66">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff76d9fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8076d9fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>66</name>
+    <name>光の子保育園　　※分園を含む　※２</name>
     <visibility>1</visibility>
     <styleUrl>#color66</styleUrl>
     <Polygon>
@@ -3575,10 +3575,10 @@
     </Placemark>
     <Style id="color67">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4bb1fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804bb1fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>67</name>
+    <name>小規模保育園光の子リジョイス</name>
     <visibility>1</visibility>
     <styleUrl>#color67</styleUrl>
     <Polygon>
@@ -3649,10 +3649,10 @@
     </Placemark>
     <Style id="color68">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ee4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ee4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>68</name>
+    <name>ベネッセ本山保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color68</styleUrl>
     <Polygon>
@@ -3686,10 +3686,10 @@
     </Placemark>
     <Style id="color69">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9bebfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809bebfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>69</name>
+    <name>親和保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color69</styleUrl>
     <Polygon>
@@ -3728,10 +3728,10 @@
     </Placemark>
     <Style id="color70">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff91e6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8091e6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>70</name>
+    <name>虹保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color70</styleUrl>
     <Polygon>
@@ -3810,10 +3810,10 @@
     </Placemark>
     <Style id="color71">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2334ef</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802334ef</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>71</name>
+    <name>岡本ハーベスト保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color71</styleUrl>
     <Polygon>
@@ -3866,10 +3866,10 @@
     </Placemark>
     <Style id="color72">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5dc2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805dc2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>72</name>
+    <name>高羽西岡本保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color72</styleUrl>
     <Polygon>
@@ -3926,10 +3926,10 @@
     </Placemark>
     <Style id="color73">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff82dffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8082dffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>73</name>
+    <name>甲南山手保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color73</styleUrl>
     <Polygon>
@@ -4035,10 +4035,10 @@
     </Placemark>
     <Style id="color74">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff263ff5</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80263ff5</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>74</name>
+    <name>おかもと虹保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color74</styleUrl>
     <Polygon>
@@ -4078,10 +4078,10 @@
     </Placemark>
     <Style id="color75">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff63c7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8063c7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>75</name>
+    <name>御影のどか保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color75</styleUrl>
     <Polygon>
@@ -4133,10 +4133,10 @@
     </Placemark>
     <Style id="color76">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5fc3fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805fc3fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>76</name>
+    <name>住吉むつみ保育園　　※分園含む　※３</name>
     <visibility>1</visibility>
     <styleUrl>#color76</styleUrl>
     <Polygon>
@@ -4174,10 +4174,10 @@
     </Placemark>
     <Style id="color77">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7cdbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807cdbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>77</name>
+    <name>ＡＢＣみかげ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color77</styleUrl>
     <Polygon>
@@ -4260,10 +4260,10 @@
     </Placemark>
     <Style id="color78">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff90e5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8090e5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>78</name>
+    <name>ブルーノの森保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color78</styleUrl>
     <Polygon>
@@ -4295,10 +4295,10 @@
     </Placemark>
     <Style id="color79">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff71d5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8071d5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>79</name>
+    <name>神戸住吉保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color79</styleUrl>
     <Polygon>
@@ -4332,10 +4332,10 @@
     </Placemark>
     <Style id="color82">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3c8efd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803c8efd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>82</name>
+    <name>あおい宙　もとやま</name>
     <visibility>1</visibility>
     <styleUrl>#color82</styleUrl>
     <Polygon>
@@ -4367,10 +4367,10 @@
     </Placemark>
     <Style id="color83">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6dd1fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806dd1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>83</name>
+    <name>あすの乳児ルーム,キッズクラブ本山南</name>
     <visibility>1</visibility>
     <styleUrl>#color83</styleUrl>
     <Polygon>
@@ -4396,10 +4396,10 @@
     </Placemark>
     <Style id="color84">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4bb0fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804bb0fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>84</name>
+    <name>小規模保育園ハピネスファミリー,はぴふぁみえるあ　小規模保育園　Lino</name>
     <visibility>1</visibility>
     <styleUrl>#color84</styleUrl>
     <Polygon>
@@ -4443,10 +4443,10 @@
     </Placemark>
     <Style id="color85">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff92e6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8092e6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>85</name>
+    <name>茶屋本庄園</name>
     <visibility>1</visibility>
     <styleUrl>#color85</styleUrl>
     <Polygon>
@@ -4496,10 +4496,10 @@
     </Placemark>
     <Style id="color86">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb4f5ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b4f5ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>86</name>
+    <name>チャイルドハート保育サロン甲南園</name>
     <visibility>1</visibility>
     <styleUrl>#color86</styleUrl>
     <Polygon>
@@ -4529,10 +4529,10 @@
     </Placemark>
     <Style id="color87">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffbef9ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80bef9ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>87</name>
+    <name>あおい宙　こうなん</name>
     <visibility>1</visibility>
     <styleUrl>#color87</styleUrl>
     <Polygon>
@@ -4557,10 +4557,10 @@
     </Placemark>
     <Style id="color88">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9fecfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809fecfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>88</name>
+    <name>RICホープ御影</name>
     <visibility>1</visibility>
     <styleUrl>#color88</styleUrl>
     <Polygon>
@@ -4602,10 +4602,10 @@
     </Placemark>
     <Style id="color89">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa2eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a2eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>89</name>
+    <name>御影小規模保育ルーム</name>
     <visibility>1</visibility>
     <styleUrl>#color89</styleUrl>
     <Polygon>
@@ -4650,10 +4650,10 @@
     </Placemark>
     <Style id="color90">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5dc2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805dc2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>90</name>
+    <name>コスモチャイルド保育園神戸東灘園</name>
     <visibility>1</visibility>
     <styleUrl>#color90</styleUrl>
     <Polygon>
@@ -4690,10 +4690,10 @@
     </Placemark>
     <Style id="color91">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff99e9fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8099e9fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>91</name>
+    <name>甲南やまゆり保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color91</styleUrl>
     <Polygon>
@@ -4725,10 +4725,10 @@
     </Placemark>
     <Style id="color92">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff85e0fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8085e0fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>92</name>
+    <name>京進のほいくえんHOPPA東灘園</name>
     <visibility>1</visibility>
     <styleUrl>#color92</styleUrl>
     <Polygon>
@@ -4771,10 +4771,10 @@
     </Placemark>
     <Style id="color93">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff73d6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8073d6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>93</name>
+    <name>幼保連携型　明照認定こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color93</styleUrl>
     <Polygon>
@@ -4911,10 +4911,10 @@
     </Placemark>
     <Style id="color94">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6cd0fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806cd0fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>94</name>
+    <name>幼保連携型　つきかげ認定こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color94</styleUrl>
     <Polygon>
@@ -4956,10 +4956,10 @@
     </Placemark>
     <Style id="color95">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa3eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a3eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>95</name>
+    <name>幼保連携型認定こども園　星の杜こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color95</styleUrl>
     <Polygon>
@@ -4997,10 +4997,10 @@
     </Placemark>
     <Style id="color96">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff63c7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8063c7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>96</name>
+    <name>幼保連携型認定こども園　キッズキャンパス</name>
     <visibility>1</visibility>
     <styleUrl>#color96</styleUrl>
     <Polygon>
@@ -5041,10 +5041,10 @@
     </Placemark>
     <Style id="color97">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff76d9fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8076d9fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>97</name>
+    <name>幼保連携型認定こども園　八多保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color97</styleUrl>
     <Polygon>
@@ -5096,10 +5096,10 @@
     </Placemark>
     <Style id="color98">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa9f0ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a9f0ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>98</name>
+    <name>幼保連携型認定こども園　星の子こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color98</styleUrl>
     <Polygon>
@@ -5133,10 +5133,10 @@
     </Placemark>
     <Style id="color100">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff71d5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8071d5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>100</name>
+    <name>からと保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color100</styleUrl>
     <Polygon>
@@ -5169,10 +5169,10 @@
     </Placemark>
     <Style id="color101">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffccffff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80ccffff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>101</name>
+    <name>道場保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color101</styleUrl>
     <Polygon>
@@ -5808,10 +5808,10 @@
     </Placemark>
     <Style id="color102">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff84dffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8084dffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>102</name>
+    <name>有馬保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color102</styleUrl>
     <Polygon>
@@ -6156,10 +6156,10 @@
     </Placemark>
     <Style id="color103">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6bcefe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806bcefe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>103</name>
+    <name>大池保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color103</styleUrl>
     <Polygon>
@@ -6205,10 +6205,10 @@
     </Placemark>
     <Style id="color104">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9fecfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809fecfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>104</name>
+    <name>ひとみ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color104</styleUrl>
     <Polygon>
@@ -6352,10 +6352,10 @@
     </Placemark>
     <Style id="color105">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa3eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a3eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>105</name>
+    <name>オリンピア神戸北保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color105</styleUrl>
     <Polygon>
@@ -6888,10 +6888,10 @@
     </Placemark>
     <Style id="color107">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb5f5ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b5f5ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>107</name>
+    <name>いつくしみ愛児園</name>
     <visibility>1</visibility>
     <styleUrl>#color107</styleUrl>
     <Polygon>
@@ -6918,10 +6918,10 @@
     </Placemark>
     <Style id="color108">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa6efff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a6efff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>108</name>
+    <name>しんてつ・おかば園</name>
     <visibility>1</visibility>
     <styleUrl>#color108</styleUrl>
     <Polygon>
@@ -6988,10 +6988,10 @@
     </Placemark>
     <Style id="color109">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff439efd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80439efd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>109</name>
+    <name>パンダこうとく保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color109</styleUrl>
     <Polygon>
@@ -7627,10 +7627,10 @@
     </Placemark>
     <Style id="color110">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb5f5ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b5f5ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>110</name>
+    <name>小規模保育　かがやき保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color110</styleUrl>
     <Polygon>
@@ -7660,10 +7660,10 @@
     </Placemark>
     <Style id="color111">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa3eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a3eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>111</name>
+    <name>こぐまプリスクール北神戸園</name>
     <visibility>1</visibility>
     <styleUrl>#color111</styleUrl>
     <Polygon>
@@ -7695,10 +7695,10 @@
     </Placemark>
     <Style id="color112">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb5f5ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b5f5ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>112</name>
+    <name>いちご保育園（恒生病院）</name>
     <visibility>1</visibility>
     <styleUrl>#color112</styleUrl>
     <Polygon>
@@ -7800,10 +7800,10 @@
     </Placemark>
     <Style id="color113">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff54bafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8054bafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>113</name>
+    <name>幼保連携型認定こども園　宝地院保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color113</styleUrl>
     <Polygon>
@@ -7843,10 +7843,10 @@
     </Placemark>
     <Style id="color114">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff71d5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8071d5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>114</name>
+    <name>幼保連携型認定こども園　大同保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color114</styleUrl>
     <Polygon>
@@ -7898,10 +7898,10 @@
     </Placemark>
     <Style id="color115">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff429cfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80429cfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>115</name>
+    <name>幼保連携型認定こども園　モーツァルト兵庫こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color115</styleUrl>
     <Polygon>
@@ -7937,10 +7937,10 @@
     </Placemark>
     <Style id="color117">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ee4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ee4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>117</name>
+    <name>運南保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color117</styleUrl>
     <Polygon>
@@ -8098,10 +8098,10 @@
     </Placemark>
     <Style id="color118">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5cc1fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805cc1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>118</name>
+    <name>松原保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color118</styleUrl>
     <Polygon>
@@ -8138,10 +8138,10 @@
     </Placemark>
     <Style id="color119">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6dd1fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806dd1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>119</name>
+    <name>羽坂保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color119</styleUrl>
     <Polygon>
@@ -8181,10 +8181,10 @@
     </Placemark>
     <Style id="color120">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff63c7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8063c7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>120</name>
+    <name>平野保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color120</styleUrl>
     <Polygon>
@@ -8235,10 +8235,10 @@
     </Placemark>
     <Style id="color121">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff48aafd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8048aafd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>121</name>
+    <name>小河保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color121</styleUrl>
     <Polygon>
@@ -8323,10 +8323,10 @@
     </Placemark>
     <Style id="color122">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa5efff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a6efff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>122</name>
+    <name>ゆりかご保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color122</styleUrl>
     <Polygon>
@@ -8385,10 +8385,10 @@
     </Placemark>
     <Style id="color123">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7ddcfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807ddcfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>123</name>
+    <name>本願寺派湊川保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color123</styleUrl>
     <Polygon>
@@ -8447,10 +8447,10 @@
     </Placemark>
     <Style id="color124">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4cb2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804cb2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>124</name>
+    <name>神徳館保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color124</styleUrl>
     <Polygon>
@@ -8665,10 +8665,10 @@
     </Placemark>
     <Style id="color125">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff63c7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8063c7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>125</name>
+    <name>ルンビニー愛児園</name>
     <visibility>1</visibility>
     <styleUrl>#color125</styleUrl>
     <Polygon>
@@ -8712,10 +8712,10 @@
     </Placemark>
     <Style id="color126">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff49acfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8049acfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>126</name>
+    <name>ちびくろ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color126</styleUrl>
     <Polygon>
@@ -8749,10 +8749,10 @@
     </Placemark>
     <Style id="color127">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff91e6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8091e6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>127</name>
+    <name>御崎保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color127</styleUrl>
     <Polygon>
@@ -8974,10 +8974,10 @@
     </Placemark>
     <Style id="color128">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4fb5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804fb5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>128</name>
+    <name>兵庫保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color128</styleUrl>
     <Polygon>
@@ -9159,10 +9159,10 @@
     </Placemark>
     <Style id="color131">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff294bfa</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80294bfa</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>131</name>
+    <name>久留島家庭託児所</name>
     <visibility>1</visibility>
     <styleUrl>#color131</styleUrl>
     <Polygon>
@@ -9218,10 +9218,10 @@
     </Placemark>
     <Style id="color132">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff326cfc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80326cfc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>132</name>
+    <name>モーツァルト兵庫駅ナカ小規模保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color132</styleUrl>
     <Polygon>
@@ -9255,10 +9255,10 @@
     </Placemark>
     <Style id="color133">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff439dfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80439dfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>133</name>
+    <name>小規模保育園　めいせい</name>
     <visibility>1</visibility>
     <styleUrl>#color133</styleUrl>
     <Polygon>
@@ -9294,10 +9294,10 @@
     </Placemark>
     <Style id="color134">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4098fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804098fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>134</name>
+    <name>小規模保育　おはな保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color134</styleUrl>
     <Polygon>
@@ -9369,10 +9369,10 @@
     </Placemark>
     <Style id="color135">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3b8cfc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803b8cfc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>135</name>
+    <name>宝地院保育園ふたば</name>
     <visibility>1</visibility>
     <styleUrl>#color135</styleUrl>
     <Polygon>
@@ -9420,10 +9420,10 @@
     </Placemark>
     <Style id="color136">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff48a9fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8048a9fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>136</name>
+    <name>認定こども園　このみ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color136</styleUrl>
     <Polygon>
@@ -9484,10 +9484,10 @@
     </Placemark>
     <Style id="color137">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa8f0ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a8f0ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>137</name>
+    <name>幼保連携型認定こども園　星和台幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color137</styleUrl>
     <Polygon>
@@ -9532,10 +9532,10 @@
     </Placemark>
     <Style id="color138">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff53b8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8053b8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>138</name>
+    <name>幼保連携型認定こども園　五葉幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color138</styleUrl>
     <Polygon>
@@ -9589,10 +9589,10 @@
     </Placemark>
     <Style id="color139">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3d8ffd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803d8ffd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>139</name>
+    <name>幼保連携型認定こども園　みどりこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color139</styleUrl>
     <Polygon>
@@ -9655,10 +9655,10 @@
     </Placemark>
     <Style id="color140">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ce3fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ce3fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>140</name>
+    <name>幼保連携型認定こども園　鈴蘭台北町こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color140</styleUrl>
     <Polygon>
@@ -9704,10 +9704,10 @@
     </Placemark>
     <Style id="color144">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff86e1fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8086e1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>144</name>
+    <name>桜の宮保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color144</styleUrl>
     <Polygon>
@@ -9758,10 +9758,10 @@
     </Placemark>
     <Style id="color145">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7cdbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807cdbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>145</name>
+    <name>君影保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color145</styleUrl>
     <Polygon>
@@ -9816,10 +9816,10 @@
     </Placemark>
     <Style id="color146">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6fd2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806fd2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>146</name>
+    <name>鈴蘭台西町保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color146</styleUrl>
     <Polygon>
@@ -9856,10 +9856,10 @@
     </Placemark>
     <Style id="color147">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff99e9fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809aeafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>147</name>
+    <name>ひよどり台保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color147</styleUrl>
     <Polygon>
@@ -9909,10 +9909,10 @@
     </Placemark>
     <Style id="color148">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff68ccfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8068ccfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>148</name>
+    <name>鈴蘭台南町保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color148</styleUrl>
     <Polygon>
@@ -9957,10 +9957,10 @@
     </Placemark>
     <Style id="color149">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5bc0fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805bc0fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>149</name>
+    <name>鈴蘭台保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color149</styleUrl>
     <Polygon>
@@ -10014,10 +10014,10 @@
     </Placemark>
     <Style id="color150">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff85e0fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8085e0fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>150</name>
+    <name>太陽の子保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color150</styleUrl>
     <Polygon>
@@ -10068,10 +10068,10 @@
     </Placemark>
     <Style id="color151">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa8f0ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a8f0ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>151</name>
+    <name>頌栄保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color151</styleUrl>
     <Polygon>
@@ -10115,10 +10115,10 @@
     </Placemark>
     <Style id="color152">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff79dafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8079dafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>152</name>
+    <name>谷上保育園　　※分園を含む</name>
     <visibility>1</visibility>
     <styleUrl>#color152</styleUrl>
     <Polygon>
@@ -10168,10 +10168,10 @@
     </Placemark>
     <Style id="color153">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7cdbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807cdbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>153</name>
+    <name>すずらんキッズ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color153</styleUrl>
     <Polygon>
@@ -10207,10 +10207,10 @@
     </Placemark>
     <Style id="color154">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb8f7ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b8f7ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>154</name>
+    <name>西鈴蘭台頌栄保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color154</styleUrl>
     <Polygon>
@@ -10255,10 +10255,10 @@
     </Placemark>
     <Style id="color155">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3a86fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803a86fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>155</name>
+    <name>山のまち保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color155</styleUrl>
     <Polygon>
@@ -10330,10 +10330,10 @@
     </Placemark>
     <Style id="color158">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff68ccfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8068ccfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>158</name>
+    <name>小規模保育園小倉台ひまわり</name>
     <visibility>1</visibility>
     <styleUrl>#color158</styleUrl>
     <Polygon>
@@ -10388,10 +10388,10 @@
     </Placemark>
     <Style id="color159">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff82dffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8082dffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>159</name>
+    <name>小規模保育園　北鈴どんぐり園</name>
     <visibility>1</visibility>
     <styleUrl>#color159</styleUrl>
     <Polygon>
@@ -10438,10 +10438,10 @@
     </Placemark>
     <Style id="color160">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff49acfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8049acfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>160</name>
+    <name>アートチャイルドケア神戸谷上</name>
     <visibility>1</visibility>
     <styleUrl>#color160</styleUrl>
     <Polygon>
@@ -10478,10 +10478,10 @@
     </Placemark>
     <Style id="color161">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff71d5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8071d5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>161</name>
+    <name>さくら保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color161</styleUrl>
     <Polygon>
@@ -10542,10 +10542,10 @@
     </Placemark>
     <Style id="color162">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3e92fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803d8ffd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>162</name>
+    <name>幼保連携型認定こども園　のぞみ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color162</styleUrl>
     <Polygon>
@@ -10591,10 +10591,10 @@
     </Placemark>
     <Style id="color163">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3d91fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803e92fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>163</name>
+    <name>幼保連携型認定こども園　若竹保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color163</styleUrl>
     <Polygon>
@@ -10647,10 +10647,10 @@
     </Placemark>
     <Style id="color164">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3b8cfc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803a88fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>164</name>
+    <name>幼保連携型認定こども園　名谷みどりこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color164</styleUrl>
     <Polygon>
@@ -10687,10 +10687,10 @@
     </Placemark>
     <Style id="color165">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff46a4fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8045a3fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>165</name>
+    <name>菅の台保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color165</styleUrl>
     <Polygon>
@@ -10741,10 +10741,10 @@
     </Placemark>
     <Style id="color166">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff46a4fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8045a2fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>166</name>
+    <name>竜が台保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color166</styleUrl>
     <Polygon>
@@ -10783,10 +10783,10 @@
     </Placemark>
     <Style id="color167">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2e5cfc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802f60fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>167</name>
+    <name>北須磨保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color167</styleUrl>
     <Polygon>
@@ -10827,10 +10827,10 @@
     </Placemark>
     <Style id="color168">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff44a1fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8045a2fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>168</name>
+    <name>あじさい保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color168</styleUrl>
     <Polygon>
@@ -10891,10 +10891,10 @@
     </Placemark>
     <Style id="color169">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4098fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803f95fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>169</name>
+    <name>やまびこ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color169</styleUrl>
     <Polygon>
@@ -10939,10 +10939,10 @@
     </Placemark>
     <Style id="color170">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3880fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803984fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>170</name>
+    <name>くすの木保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color170</styleUrl>
     <Polygon>
@@ -10985,10 +10985,10 @@
     </Placemark>
     <Style id="color171">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5abffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805bc0fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>171</name>
+    <name>北須磨第２保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color171</styleUrl>
     <Polygon>
@@ -11036,10 +11036,10 @@
     </Placemark>
     <Style id="color173">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff78dafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8078dafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>173</name>
+    <name>幼保連携型認定こども園　はっとこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color173</styleUrl>
     <Polygon>
@@ -11094,10 +11094,10 @@
     </Placemark>
     <Style id="color174">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5dc2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805dc2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>174</name>
+    <name>幼保連携型認定こども園　なかはらこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color174</styleUrl>
     <Polygon>
@@ -11152,10 +11152,10 @@
     </Placemark>
     <Style id="color175">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ee4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ee4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>175</name>
+    <name>認定こども園　六甲道COCORO</name>
     <visibility>1</visibility>
     <styleUrl>#color175</styleUrl>
     <Polygon>
@@ -11195,10 +11195,10 @@
     </Placemark>
     <Style id="color176">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff48a9fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8048a9fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>176</name>
+    <name>幼保連携型認定こども園　八幡幼稚園・八幡ピジョン保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color176</styleUrl>
     <Polygon>
@@ -11240,10 +11240,10 @@
     </Placemark>
     <Style id="color177">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4199fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804199fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>177</name>
+    <name>認定こども園　高羽COCORO</name>
     <visibility>1</visibility>
     <styleUrl>#color177</styleUrl>
     <Polygon>
@@ -11289,10 +11289,10 @@
     </Placemark>
     <Style id="color178">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff74d7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8074d7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>178</name>
+    <name>幼保連携型認定こども園　神戸さくら保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color178</styleUrl>
     <Polygon>
@@ -11329,10 +11329,10 @@
     </Placemark>
     <Style id="color180">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3576fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803576fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>180</name>
+    <name>幼保連携型認定こども園　光愛児園　※分園含む　※１</name>
     <visibility>1</visibility>
     <styleUrl>#color180</styleUrl>
     <Polygon>
@@ -11387,10 +11387,10 @@
     </Placemark>
     <Style id="color181">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff81defe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8081defe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>181</name>
+    <name>幼保連携型認定こども園　青谷愛児園</name>
     <visibility>1</visibility>
     <styleUrl>#color181</styleUrl>
     <Polygon>
@@ -11447,10 +11447,10 @@
     </Placemark>
     <Style id="color182">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffccffff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80ccffff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>182</name>
+    <name>幼保連携型認定こども園　おおいしこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color182</styleUrl>
     <Polygon>
@@ -11482,10 +11482,10 @@
     </Placemark>
     <Style id="color183">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff1d16dd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>801d16dd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>183</name>
+    <name>幼保連携型認定こども園　オリンピア都こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color183</styleUrl>
     <Polygon>
@@ -11526,10 +11526,10 @@
     </Placemark>
     <Style id="color184">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5cc1fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805cc1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>184</name>
+    <name>幼保連携型　めばえの園認定こども園　※分園含む　※２</name>
     <visibility>1</visibility>
     <styleUrl>#color184</styleUrl>
     <Polygon>
@@ -11570,10 +11570,10 @@
     </Placemark>
     <Style id="color185">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff53b8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8053b8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>185</name>
+    <name>灘保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color185</styleUrl>
     <Polygon>
@@ -11636,10 +11636,10 @@
     </Placemark>
     <Style id="color186">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3064fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803064fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>186</name>
+    <name>西灘保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color186</styleUrl>
     <Polygon>
@@ -11679,10 +11679,10 @@
     </Placemark>
     <Style id="color187">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff47a8fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8047a8fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>187</name>
+    <name>石屋川保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color187</styleUrl>
     <Polygon>
@@ -11731,10 +11731,10 @@
     </Placemark>
     <Style id="color188">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff64c8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8064c8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>188</name>
+    <name>倉石保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color188</styleUrl>
     <Polygon>
@@ -11782,10 +11782,10 @@
     </Placemark>
     <Style id="color189">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3678fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803678fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>189</name>
+    <name>やはた桜保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color189</styleUrl>
     <Polygon>
@@ -11835,10 +11835,10 @@
     </Placemark>
     <Style id="color190">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff73d6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8073d6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>190</name>
+    <name>やはた桜保育所鶴甲分室</name>
     <visibility>1</visibility>
     <styleUrl>#color190</styleUrl>
     <Polygon>
@@ -11897,10 +11897,10 @@
     </Placemark>
     <Style id="color191">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff56bbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8056bbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>191</name>
+    <name>誠佛保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color191</styleUrl>
     <Polygon>
@@ -11941,10 +11941,10 @@
     </Placemark>
     <Style id="color192">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3064fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803064fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>192</name>
+    <name>同朋保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color192</styleUrl>
     <Polygon>
@@ -12028,10 +12028,10 @@
     </Placemark>
     <Style id="color193">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff367afc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80367afc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>193</name>
+    <name>ゆりか保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color193</styleUrl>
     <Polygon>
@@ -12076,10 +12076,10 @@
     </Placemark>
     <Style id="color194">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff45a2fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8045a2fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>194</name>
+    <name>六甲ゆりかご保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color194</styleUrl>
     <Polygon>
@@ -12114,10 +12114,10 @@
     </Placemark>
     <Style id="color195">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff70d3fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8070d3fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>195</name>
+    <name>花音つばさ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color195</styleUrl>
     <Polygon>
@@ -12151,10 +12151,10 @@
     </Placemark>
     <Style id="color196">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2f60fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802f60fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>196</name>
+    <name>琵琶COCORO保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color196</styleUrl>
     <Polygon>
@@ -12200,10 +12200,10 @@
     </Placemark>
     <Style id="color199">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff56bbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8056bbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>199</name>
+    <name>たんぽぽ</name>
     <visibility>1</visibility>
     <styleUrl>#color199</styleUrl>
     <Polygon>
@@ -12238,10 +12238,10 @@
     </Placemark>
     <Style id="color200">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3c8dfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803c8dfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>200</name>
+    <name>はらだ乳児園</name>
     <visibility>1</visibility>
     <styleUrl>#color200</styleUrl>
     <Polygon>
@@ -12281,10 +12281,10 @@
     </Placemark>
     <Style id="color201">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2d58fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802d58fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>201</name>
+    <name>コアラ愛児園</name>
     <visibility>1</visibility>
     <styleUrl>#color201</styleUrl>
     <Polygon>
@@ -12325,10 +12325,10 @@
     </Placemark>
     <Style id="color202">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2e5cfc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802e5cfc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>202</name>
+    <name>めばえすくすくルーム</name>
     <visibility>1</visibility>
     <styleUrl>#color202</styleUrl>
     <Polygon>
@@ -12367,10 +12367,10 @@
     </Placemark>
     <Style id="color203">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff439efd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80439efd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>203</name>
+    <name>小規模保育園　六甲道</name>
     <visibility>1</visibility>
     <styleUrl>#color203</styleUrl>
     <Polygon>
@@ -12413,10 +12413,10 @@
     </Placemark>
     <Style id="color204">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff58bdfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8058bdfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>204</name>
+    <name>保育ルーム　ちいさなCOCORO</name>
     <visibility>1</visibility>
     <styleUrl>#color204</styleUrl>
     <Polygon>
@@ -12450,10 +12450,10 @@
     </Placemark>
     <Style id="color205">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3e93fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803e93fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>205</name>
+    <name>京進のほいくえんHOPPA灘園</name>
     <visibility>1</visibility>
     <styleUrl>#color205</styleUrl>
     <Polygon>
@@ -12490,10 +12490,10 @@
     </Placemark>
     <Style id="color206">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff1f25e8</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>801f25e8</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>206</name>
+    <name>キッズパートナー王子公園</name>
     <visibility>1</visibility>
     <styleUrl>#color206</styleUrl>
     <Polygon>
@@ -12537,10 +12537,10 @@
     </Placemark>
     <Style id="color207">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff439dfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80439dfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>207</name>
+    <name>ポピンズ小規模保育園HAT神戸</name>
     <visibility>1</visibility>
     <styleUrl>#color207</styleUrl>
     <Polygon>
@@ -12598,10 +12598,10 @@
     </Placemark>
     <Style id="color208">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff84dffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8084dffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>208</name>
+    <name>（仮称）神戸六甲キッズバルーン</name>
     <visibility>1</visibility>
     <styleUrl>#color208</styleUrl>
     <Polygon>
@@ -12633,10 +12633,10 @@
     </Placemark>
     <Style id="color209">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2f60fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802f60fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>209</name>
+    <name>（仮称）くじら保育園神戸六甲園</name>
     <visibility>1</visibility>
     <styleUrl>#color209</styleUrl>
     <Polygon>
@@ -12679,10 +12679,10 @@
     </Placemark>
     <Style id="color210">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3370fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803370fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>210</name>
+    <name>幼保連携型認定こども園　神戸保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color210</styleUrl>
     <Polygon>
@@ -12727,10 +12727,10 @@
     </Placemark>
     <Style id="color211">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff81defe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8081defe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>211</name>
+    <name>幼保連携型認定こども園　たから保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color211</styleUrl>
     <Polygon>
@@ -12766,10 +12766,10 @@
     </Placemark>
     <Style id="color212">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3b8cfc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803b8cfc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>212</name>
+    <name>幼保連携型認定こども園　神楽こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color212</styleUrl>
     <Polygon>
@@ -12820,10 +12820,10 @@
     </Placemark>
     <Style id="color213">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff80ddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8080ddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>213</name>
+    <name>神戸エンゼル認定こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color213</styleUrl>
     <Polygon>
@@ -12872,10 +12872,10 @@
     </Placemark>
     <Style id="color214">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff79dafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8079dafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>214</name>
+    <name>認定こども園　近田幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color214</styleUrl>
     <Polygon>
@@ -12967,10 +12967,10 @@
     </Placemark>
     <Style id="color215">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9debfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809eecfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>215</name>
+    <name>認定こども園　名倉幼稚園　※</name>
     <visibility>1</visibility>
     <styleUrl>#color215</styleUrl>
     <Polygon>
@@ -13018,10 +13018,10 @@
     </Placemark>
     <Style id="color216">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ce3fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ce3fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>216</name>
+    <name>長田保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color216</styleUrl>
     <Polygon>
@@ -13080,10 +13080,10 @@
     </Placemark>
     <Style id="color217">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff53b8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8053b8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>217</name>
+    <name>菅原保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color217</styleUrl>
     <Polygon>
@@ -13123,10 +13123,10 @@
     </Placemark>
     <Style id="color218">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4aaefd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804aaefd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>218</name>
+    <name>本庄保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color218</styleUrl>
     <Polygon>
@@ -13207,10 +13207,10 @@
     </Placemark>
     <Style id="color219">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff95e7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8095e7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>219</name>
+    <name>駒栄保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color219</styleUrl>
     <Polygon>
@@ -13304,10 +13304,10 @@
     </Placemark>
     <Style id="color220">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff92e6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8092e6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>220</name>
+    <name>房王寺保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color220</styleUrl>
     <Polygon>
@@ -13370,10 +13370,10 @@
     </Placemark>
     <Style id="color221">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff69cdfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806bcefe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>221</name>
+    <name>明泉寺保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color221</styleUrl>
     <Polygon>
@@ -13437,10 +13437,10 @@
     </Placemark>
     <Style id="color222">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff53b8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8053b8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>222</name>
+    <name>長田東保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color222</styleUrl>
     <Polygon>
@@ -13489,10 +13489,10 @@
     </Placemark>
     <Style id="color224">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffacf2ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80acf2ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>224</name>
+    <name>しりいけ保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color224</styleUrl>
     <Polygon>
@@ -13575,10 +13575,10 @@
     </Placemark>
     <Style id="color225">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5cc1fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805cc1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>225</name>
+    <name>ふたば保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color225</styleUrl>
     <Polygon>
@@ -13652,10 +13652,10 @@
     </Placemark>
     <Style id="color226">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff419afd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80429bfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>226</name>
+    <name>新生保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color226</styleUrl>
     <Polygon>
@@ -13713,10 +13713,10 @@
     </Placemark>
     <Style id="color227">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff47a7fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8047a8fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>227</name>
+    <name>神視保育園,天隣乳児保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color227</styleUrl>
     <Polygon>
@@ -13762,10 +13762,10 @@
     </Placemark>
     <Style id="color228">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff86e1fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8086e1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>228</name>
+    <name>けやき保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color228</styleUrl>
     <Polygon>
@@ -13812,10 +13812,10 @@
     </Placemark>
     <Style id="color229">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2d58fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802d58fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>229</name>
+    <name>みすまる保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color229</styleUrl>
     <Polygon>
@@ -13870,10 +13870,10 @@
     </Placemark>
     <Style id="color230">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff1d15dc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>801d16dd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>230</name>
+    <name>五位の池保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color230</styleUrl>
     <Polygon>
@@ -13920,10 +13920,10 @@
     </Placemark>
     <Style id="color231">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2a4efc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802a4efc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>231</name>
+    <name>ほそだ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color231</styleUrl>
     <Polygon>
@@ -13967,10 +13967,10 @@
     </Placemark>
     <Style id="color233">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2641f6</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802641f6</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>233</name>
+    <name>こぐまプリスクール新長田園</name>
     <visibility>1</visibility>
     <styleUrl>#color233</styleUrl>
     <Polygon>
@@ -14020,10 +14020,10 @@
     </Placemark>
     <Style id="color234">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff80ddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8080ddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>234</name>
+    <name>幼保連携型認定こども園　岩岡こども園　　※分園を含む</name>
     <visibility>1</visibility>
     <styleUrl>#color234</styleUrl>
     <Polygon>
@@ -14688,10 +14688,10 @@
     </Placemark>
     <Style id="color235">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffc3fbff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80c3fbff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>235</name>
+    <name>幼保連携型認定こども園　おっこう山</name>
     <visibility>1</visibility>
     <styleUrl>#color235</styleUrl>
     <Polygon>
@@ -14952,10 +14952,10 @@
     </Placemark>
     <Style id="color236">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8de4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808de4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>236</name>
+    <name>幼保連携型認定こども園　あさひ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color236</styleUrl>
     <Polygon>
@@ -15381,10 +15381,10 @@
     </Placemark>
     <Style id="color237">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff58bdfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8058bdfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>237</name>
+    <name>幼保連携型認定こども園　YMCA保育園　　※分園を含む</name>
     <visibility>1</visibility>
     <styleUrl>#color237</styleUrl>
     <Polygon>
@@ -15416,10 +15416,10 @@
     </Placemark>
     <Style id="color238">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa2eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a2eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>238</name>
+    <name>幼保連携型認定こども園　なごみ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color238</styleUrl>
     <Polygon>
@@ -15453,10 +15453,10 @@
     </Placemark>
     <Style id="color239">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa8f0ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a8f0ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>239</name>
+    <name>幼保連携型認定こども園　西神戸YMCA保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color239</styleUrl>
     <Polygon>
@@ -15489,10 +15489,10 @@
     </Placemark>
     <Style id="color240">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff48a9fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8048a9fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>240</name>
+    <name>幼保連携型認定こども園　神戸潤和保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color240</styleUrl>
     <Polygon>
@@ -15603,10 +15603,10 @@
     </Placemark>
     <Style id="color241">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2d5afc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802d58fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>241</name>
+    <name>幼保連携型認定こども園　神戸学園都市YMCAこども園</name>
     <visibility>1</visibility>
     <styleUrl>#color241</styleUrl>
     <Polygon>
@@ -15645,10 +15645,10 @@
     </Placemark>
     <Style id="color242">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb4f5ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b4f5ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>242</name>
+    <name>認定こども園　ななほし保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color242</styleUrl>
     <Polygon>
@@ -15684,10 +15684,10 @@
     </Placemark>
     <Style id="color243">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff96e8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8096e8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>243</name>
+    <name>幼保連携型認定こども園　あい保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color243</styleUrl>
     <Polygon>
@@ -15715,10 +15715,10 @@
     </Placemark>
     <Style id="color244">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5dc2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805cc1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>244</name>
+    <name>幼保連携型認定こども園　あゆみ幼児園</name>
     <visibility>1</visibility>
     <styleUrl>#color244</styleUrl>
     <Polygon>
@@ -15760,10 +15760,10 @@
     </Placemark>
     <Style id="color245">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff50b6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8050b6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>245</name>
+    <name>幼保連携型認定こども園　同朋にこにここども園　※分園含む　※２</name>
     <visibility>1</visibility>
     <styleUrl>#color245</styleUrl>
     <Polygon>
@@ -15804,10 +15804,10 @@
     </Placemark>
     <Style id="color246">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffadf2ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80adf2ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>246</name>
+    <name>幼保連携型認定こども園　わらべ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color246</styleUrl>
     <Polygon>
@@ -15974,10 +15974,10 @@
     </Placemark>
     <Style id="color247">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4aaefd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804aaefd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>247</name>
+    <name>幼保連携型認定こども園　有瀬幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color247</styleUrl>
     <Polygon>
@@ -16308,10 +16308,10 @@
     </Placemark>
     <Style id="color248">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffbef9ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80bef9ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>248</name>
+    <name>認定こども園　さくらんぼ幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color248</styleUrl>
     <Polygon>
@@ -16368,10 +16368,10 @@
     </Placemark>
     <Style id="color249">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff1e14da</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>801e13d9</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>249</name>
+    <name>認定こども園　いぶき幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color249</styleUrl>
     <Polygon>
@@ -16414,10 +16414,10 @@
     </Placemark>
     <Style id="color250">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff58bdfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8058bdfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>250</name>
+    <name>認定こども園　桑ノ木幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color250</styleUrl>
     <Polygon>
@@ -16454,10 +16454,10 @@
     </Placemark>
     <Style id="color251">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2c56fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802c56fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>251</name>
+    <name>玉津保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color251</styleUrl>
     <Polygon>
@@ -16562,10 +16562,10 @@
     </Placemark>
     <Style id="color252">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffbef9ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80bef9ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>252</name>
+    <name>押部谷保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color252</styleUrl>
     <Polygon>
@@ -16848,10 +16848,10 @@
     </Placemark>
     <Style id="color253">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa3eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a3eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>253</name>
+    <name>王塚台保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color253</styleUrl>
     <Polygon>
@@ -17033,10 +17033,10 @@
     </Placemark>
     <Style id="color254">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7cdbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807cdbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>254</name>
+    <name>日輪寺保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color254</styleUrl>
     <Polygon>
@@ -17078,10 +17078,10 @@
     </Placemark>
     <Style id="color255">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9debfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809debfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>255</name>
+    <name>弁天保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color255</styleUrl>
     <Polygon>
@@ -17125,10 +17125,10 @@
     </Placemark>
     <Style id="color256">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffadf2ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80adf2ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>256</name>
+    <name>神出保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color256</styleUrl>
     <Polygon>
@@ -17450,10 +17450,10 @@
     </Placemark>
     <Style id="color257">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff81defe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8081defe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>257</name>
+    <name>平野保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color257</styleUrl>
     <Polygon>
@@ -17519,10 +17519,10 @@
     </Placemark>
     <Style id="color258">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffc5fcff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80c5fcff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>258</name>
+    <name>出合保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color258</styleUrl>
     <Polygon>
@@ -17568,10 +17568,10 @@
     </Placemark>
     <Style id="color259">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffbbf8ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80bbf8ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>259</name>
+    <name>持子保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color259</styleUrl>
     <Polygon>
@@ -17614,10 +17614,10 @@
     </Placemark>
     <Style id="color260">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6bcefe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806bcefe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>260</name>
+    <name>竹の台保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color260</styleUrl>
     <Polygon>
@@ -17664,10 +17664,10 @@
     </Placemark>
     <Style id="color261">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff67cbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8067cbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>261</name>
+    <name>美賀多保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color261</styleUrl>
     <Polygon>
@@ -17726,10 +17726,10 @@
     </Placemark>
     <Style id="color262">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ee4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ee4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>262</name>
+    <name>まゆか保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color262</styleUrl>
     <Polygon>
@@ -17786,10 +17786,10 @@
     </Placemark>
     <Style id="color263">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff53b8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8053b8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>263</name>
+    <name>つぐみ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color263</styleUrl>
     <Polygon>
@@ -17813,10 +17813,10 @@
     </Placemark>
     <Style id="color264">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5bc0fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805abffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>264</name>
+    <name>ひまわり保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color264</styleUrl>
     <Polygon>
@@ -17847,10 +17847,10 @@
     </Placemark>
     <Style id="color265">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff91e6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8091e6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>265</name>
+    <name>なかよし保育園　　※分園を含む</name>
     <visibility>1</visibility>
     <styleUrl>#color265</styleUrl>
     <Polygon>
@@ -17904,10 +17904,10 @@
     </Placemark>
     <Style id="color266">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb5f5ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b5f5ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>266</name>
+    <name>あおぞら保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color266</styleUrl>
     <Polygon>
@@ -17952,10 +17952,10 @@
     </Placemark>
     <Style id="color267">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4fb5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804fb5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>267</name>
+    <name>枦谷つぐみ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color267</styleUrl>
     <Polygon>
@@ -17991,10 +17991,10 @@
     </Placemark>
     <Style id="color268">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa3eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a3eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>268</name>
+    <name>枝吉保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color268</styleUrl>
     <Polygon>
@@ -18072,10 +18072,10 @@
     </Placemark>
     <Style id="color269">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff419afd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80419afd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>269</name>
+    <name>井吹北つぐみ保育園　　※分園を含む</name>
     <visibility>1</visibility>
     <styleUrl>#color269</styleUrl>
     <Polygon>
@@ -18107,10 +18107,10 @@
     </Placemark>
     <Style id="color272">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffc3fbff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80c3fbff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>272</name>
+    <name>こばとキンダ―ルーム</name>
     <visibility>1</visibility>
     <styleUrl>#color272</styleUrl>
     <Polygon>
@@ -18163,10 +18163,10 @@
     </Placemark>
     <Style id="color273">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7eddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807eddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>273</name>
+    <name>西神中央エンゼルホーム</name>
     <visibility>1</visibility>
     <styleUrl>#color273</styleUrl>
     <Polygon>
@@ -18224,10 +18224,10 @@
     </Placemark>
     <Style id="color274">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff53b8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8052b7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>274</name>
+    <name>YMCAちとせ保育ルーム</name>
     <visibility>1</visibility>
     <styleUrl>#color274</styleUrl>
     <Polygon>
@@ -18266,10 +18266,10 @@
     </Placemark>
     <Style id="color275">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff60c5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8060c5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>275</name>
+    <name>学園都市駅前小規模保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color275</styleUrl>
     <Polygon>
@@ -18306,10 +18306,10 @@
     </Placemark>
     <Style id="color276">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8de4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808de4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>276</name>
+    <name>小規模保育園ふわり池上</name>
     <visibility>1</visibility>
     <styleUrl>#color276</styleUrl>
     <Polygon>
@@ -18352,10 +18352,10 @@
     </Placemark>
     <Style id="color277">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6bcefe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806bcefe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>277</name>
+    <name>小規模保育つぐみ　House</name>
     <visibility>1</visibility>
     <styleUrl>#color277</styleUrl>
     <Polygon>
@@ -18384,10 +18384,10 @@
     </Placemark>
     <Style id="color278">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff89e2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8089e2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>278</name>
+    <name>キッズパートナー狩場台</name>
     <visibility>1</visibility>
     <styleUrl>#color278</styleUrl>
     <Polygon>
@@ -18433,10 +18433,10 @@
     </Placemark>
     <Style id="color279">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff429cfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80429bfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>279</name>
+    <name>ひかりのくれよん</name>
     <visibility>1</visibility>
     <styleUrl>#color279</styleUrl>
     <Polygon>
@@ -18509,10 +18509,10 @@
     </Placemark>
     <Style id="color280">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff71d5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8071d5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>280</name>
+    <name>事業所内保育事業　みどり保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color280</styleUrl>
     <Polygon>
@@ -18663,10 +18663,10 @@
     </Placemark>
     <Style id="color281">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffb5f5ff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80b5f5ff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>281</name>
+    <name>幼保連携型認定こども園　若木保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color281</styleUrl>
     <Polygon>
@@ -18708,10 +18708,10 @@
     </Placemark>
     <Style id="color283">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff92e6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8092e6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>283</name>
+    <name>幼保連携型認定こども園　西須磨幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color283</styleUrl>
     <Polygon>
@@ -18778,10 +18778,10 @@
     </Placemark>
     <Style id="color286">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff53b8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8053b8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>286</name>
+    <name>須磨保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color286</styleUrl>
     <Polygon>
@@ -18828,10 +18828,10 @@
     </Placemark>
     <Style id="color287">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff80ddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8080ddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>287</name>
+    <name>たかとり保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color287</styleUrl>
     <Polygon>
@@ -18878,10 +18878,10 @@
     </Placemark>
     <Style id="color288">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff48aafd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8049abfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>288</name>
+    <name>高倉台保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color288</styleUrl>
     <Polygon>
@@ -18921,10 +18921,10 @@
     </Placemark>
     <Style id="color289">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff60c5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8061c6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>289</name>
+    <name>東須磨愛児園　　※分園含む</name>
     <visibility>1</visibility>
     <styleUrl>#color289</styleUrl>
     <Polygon>
@@ -18966,10 +18966,10 @@
     </Placemark>
     <Style id="color290">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ee4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ee4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>290</name>
+    <name>太田共同保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color290</styleUrl>
     <Polygon>
@@ -19005,10 +19005,10 @@
     </Placemark>
     <Style id="color291">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3066fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803066fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>291</name>
+    <name>千歳保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color291</styleUrl>
     <Polygon>
@@ -19050,10 +19050,10 @@
     </Placemark>
     <Style id="color292">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff74d7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8074d7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>292</name>
+    <name>村雨保育園　※分園含む　※２</name>
     <visibility>1</visibility>
     <styleUrl>#color292</styleUrl>
     <Polygon>
@@ -19135,10 +19135,10 @@
     </Placemark>
     <Style id="color293">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff439dfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80439dfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>293</name>
+    <name>すまいる保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color293</styleUrl>
     <Polygon>
@@ -19271,10 +19271,10 @@
     </Placemark>
     <Style id="color294">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4aaefd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804aaefd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>294</name>
+    <name>いたやど保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color294</styleUrl>
     <Polygon>
@@ -19317,10 +19317,10 @@
     </Placemark>
     <Style id="color295">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff58bdfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8058bdfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>295</name>
+    <name>若宮保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color295</styleUrl>
     <Polygon>
@@ -19573,10 +19573,10 @@
     </Placemark>
     <Style id="color296">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff52b7fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8052b7fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>296</name>
+    <name>たかとりちどり保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color296</styleUrl>
     <Polygon>
@@ -19615,10 +19615,10 @@
     </Placemark>
     <Style id="color297">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff67cbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8067cbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>297</name>
+    <name>大池　赤ちゃんホーム</name>
     <visibility>1</visibility>
     <styleUrl>#color297</styleUrl>
     <Polygon>
@@ -19653,10 +19653,10 @@
     </Placemark>
     <Style id="color298">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7ddcfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807ddcfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>298</name>
+    <name>林　赤ちゃんホーム</name>
     <visibility>1</visibility>
     <styleUrl>#color298</styleUrl>
     <Polygon>
@@ -19698,10 +19698,10 @@
     </Placemark>
     <Style id="color300">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff78dafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8078dafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>300</name>
+    <name>ヤクルトキッズスクール須磨</name>
     <visibility>1</visibility>
     <styleUrl>#color300</styleUrl>
     <Polygon>
@@ -19740,10 +19740,10 @@
     </Placemark>
     <Style id="color301">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ee4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ee4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>301</name>
+    <name>幼保連携型認定こども園　多夢の森</name>
     <visibility>1</visibility>
     <styleUrl>#color301</styleUrl>
     <Polygon>
@@ -19810,10 +19810,10 @@
     </Placemark>
     <Style id="color302">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9eecfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809eecfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>302</name>
+    <name>幼保連携型認定こども園　夢の森</name>
     <visibility>1</visibility>
     <styleUrl>#color302</styleUrl>
     <Polygon>
@@ -19855,10 +19855,10 @@
     </Placemark>
     <Style id="color303">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff61c6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8061c6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>303</name>
+    <name>幼保連携型　おとぎ認定こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color303</styleUrl>
     <Polygon>
@@ -19896,10 +19896,10 @@
     </Placemark>
     <Style id="color304">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7eddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807eddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>304</name>
+    <name>幼保連携型認定こども園　花の森</name>
     <visibility>1</visibility>
     <styleUrl>#color304</styleUrl>
     <Polygon>
@@ -19941,10 +19941,10 @@
     </Placemark>
     <Style id="color305">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6dd1fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806dd1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>305</name>
+    <name>幼保連携型認定こども園　心の森</name>
     <visibility>1</visibility>
     <styleUrl>#color305</styleUrl>
     <Polygon>
@@ -19978,10 +19978,10 @@
     </Placemark>
     <Style id="color306">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff48aafd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8048aafd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>306</name>
+    <name>幼保連携型認定こども園　明舞幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color306</styleUrl>
     <Polygon>
@@ -20082,10 +20082,10 @@
     </Placemark>
     <Style id="color307">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff58bdfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8058bdfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>307</name>
+    <name>幼保連携型認定こども園　塩屋幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color307</styleUrl>
     <Polygon>
@@ -20142,10 +20142,10 @@
     </Placemark>
     <Style id="color308">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa2eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a2eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>308</name>
+    <name>幼保連携型小束山認定こども園</name>
     <visibility>1</visibility>
     <styleUrl>#color308</styleUrl>
     <Polygon>
@@ -20187,10 +20187,10 @@
     </Placemark>
     <Style id="color309">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff336efc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80336efc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>309</name>
+    <name>幼保連携型認定こども園　桃の木幼稚園</name>
     <visibility>1</visibility>
     <styleUrl>#color309</styleUrl>
     <Polygon>
@@ -20242,10 +20242,10 @@
     </Placemark>
     <Style id="color310">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff84dffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8084dffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>310</name>
+    <name>幼保連携型認定こども園　上高丸</name>
     <visibility>1</visibility>
     <styleUrl>#color310</styleUrl>
     <Polygon>
@@ -20279,10 +20279,10 @@
     </Placemark>
     <Style id="color315">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3576fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803576fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>315</name>
+    <name>奥ノ池保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color315</styleUrl>
     <Polygon>
@@ -20322,10 +20322,10 @@
     </Placemark>
     <Style id="color316">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff78dafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8078dafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>316</name>
+    <name>星陵台保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color316</styleUrl>
     <Polygon>
@@ -20367,10 +20367,10 @@
     </Placemark>
     <Style id="color317">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff96e8fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8096e8fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>317</name>
+    <name>本多聞保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color317</styleUrl>
     <Polygon>
@@ -20400,10 +20400,10 @@
     </Placemark>
     <Style id="color318">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3a88fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803a88fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>318</name>
+    <name>川原保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color318</styleUrl>
     <Polygon>
@@ -20456,10 +20456,10 @@
     </Placemark>
     <Style id="color319">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6bcefe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806bcefe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>319</name>
+    <name>東高丸保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color319</styleUrl>
     <Polygon>
@@ -20491,10 +20491,10 @@
     </Placemark>
     <Style id="color320">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3064fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803064fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>320</name>
+    <name>向陽保育所</name>
     <visibility>1</visibility>
     <styleUrl>#color320</styleUrl>
     <Polygon>
@@ -20528,10 +20528,10 @@
     </Placemark>
     <Style id="color321">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3474fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803474fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>321</name>
+    <name>舞子保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color321</styleUrl>
     <Polygon>
@@ -20607,10 +20607,10 @@
     </Placemark>
     <Style id="color322">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff294bfa</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80294bfa</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>322</name>
+    <name>歌敷山保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color322</styleUrl>
     <Polygon>
@@ -20652,10 +20652,10 @@
     </Placemark>
     <Style id="color323">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff47a8fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8047a8fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>323</name>
+    <name>東垂水保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color323</styleUrl>
     <Polygon>
@@ -20699,10 +20699,10 @@
     </Placemark>
     <Style id="color324">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8de4fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808de4fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>324</name>
+    <name>塩屋保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color324</styleUrl>
     <Polygon>
@@ -20789,10 +20789,10 @@
     </Placemark>
     <Style id="color325">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff61c6fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8061c6fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>325</name>
+    <name>滝の茶屋保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color325</styleUrl>
     <Polygon>
@@ -20832,10 +20832,10 @@
     </Placemark>
     <Style id="color326">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff90e5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8090e5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>326</name>
+    <name>学が丘保育園　　※分園を含む</name>
     <visibility>1</visibility>
     <styleUrl>#color326</styleUrl>
     <Polygon>
@@ -20869,10 +20869,10 @@
     </Placemark>
     <Style id="color327">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff2a4efc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>802a4efc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>327</name>
+    <name>たるみ保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color327</styleUrl>
     <Polygon>
@@ -20937,10 +20937,10 @@
     </Placemark>
     <Style id="color328">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff48aafd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8048aafd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>328</name>
+    <name>ドレミキッズ保育園,ハープキッズ</name>
     <visibility>1</visibility>
     <styleUrl>#color328</styleUrl>
     <Polygon>
@@ -21021,10 +21021,10 @@
     </Placemark>
     <Style id="color329">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff97e9fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8097e9fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>329</name>
+    <name>千鳥が丘親和保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color329</styleUrl>
     <Polygon>
@@ -21052,10 +21052,10 @@
     </Placemark>
     <Style id="color330">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff48a9fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8048a9fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>330</name>
+    <name>ことぶき保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color330</styleUrl>
     <Polygon>
@@ -21087,10 +21087,10 @@
     </Placemark>
     <Style id="color331">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5dc2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805dc2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>331</name>
+    <name>ひとまる保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color331</styleUrl>
     <Polygon>
@@ -21128,10 +21128,10 @@
     </Placemark>
     <Style id="color332">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3b8afc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803b8afc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>332</name>
+    <name>かすみがおか虹保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color332</styleUrl>
     <Polygon>
@@ -21168,10 +21168,10 @@
     </Placemark>
     <Style id="color333">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3066fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803066fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>333</name>
+    <name>たけの保育園　　※分園を含む</name>
     <visibility>1</visibility>
     <styleUrl>#color333</styleUrl>
     <Polygon>
@@ -21216,10 +21216,10 @@
     </Placemark>
     <Style id="color334">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff60c5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8060c5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>334</name>
+    <name>かすが保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color334</styleUrl>
     <Polygon>
@@ -21253,10 +21253,10 @@
     </Placemark>
     <Style id="color335">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ffa3eeff</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80a3eeff</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>335</name>
+    <name>多聞台保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color335</styleUrl>
     <Polygon>
@@ -21292,10 +21292,10 @@
     </Placemark>
     <Style id="color336">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5dc2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805cc1fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>336</name>
+    <name>たかつか保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color336</styleUrl>
     <Polygon>
@@ -21347,10 +21347,10 @@
     </Placemark>
     <Style id="color338">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4fb5fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804fb5fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>338</name>
+    <name>藤田赤ちゃんホームひまわり</name>
     <visibility>1</visibility>
     <styleUrl>#color338</styleUrl>
     <Polygon>
@@ -21387,10 +21387,10 @@
     </Placemark>
     <Style id="color341">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff202aeb</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80202aeb</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>341</name>
+    <name>はやし赤ちゃんホームｉｎ五色山</name>
     <visibility>1</visibility>
     <styleUrl>#color341</styleUrl>
     <Polygon>
@@ -21477,10 +21477,10 @@
     </Placemark>
     <Style id="color343">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff9aeafe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>809aeafe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>343</name>
+    <name>ちっちゃなこども園ふたば</name>
     <visibility>1</visibility>
     <styleUrl>#color343</styleUrl>
     <Polygon>
@@ -21510,10 +21510,10 @@
     </Placemark>
     <Style id="color344">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7eddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807eddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>344</name>
+    <name>本多聞小規模保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color344</styleUrl>
     <Polygon>
@@ -21543,10 +21543,10 @@
     </Placemark>
     <Style id="color345">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3168fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803168fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>345</name>
+    <name>青山台小規模保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color345</styleUrl>
     <Polygon>
@@ -21588,10 +21588,10 @@
     </Placemark>
     <Style id="color346">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff6fd2fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>806fd2fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>346</name>
+    <name>虹っこひろば</name>
     <visibility>1</visibility>
     <styleUrl>#color346</styleUrl>
     <Polygon>
@@ -21628,10 +21628,10 @@
     </Placemark>
     <Style id="color347">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3d91fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803d91fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>347</name>
+    <name>小規模保育園　たるみ駅ナカ</name>
     <visibility>1</visibility>
     <styleUrl>#color347</styleUrl>
     <Polygon>
@@ -21670,10 +21670,10 @@
     </Placemark>
     <Style id="color348">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3472fc</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803472fc</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>348</name>
+    <name>垂水駅前小規模保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color348</styleUrl>
     <Polygon>
@@ -21702,10 +21702,10 @@
     </Placemark>
     <Style id="color349">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff84dffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8084dffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>349</name>
+    <name>つくし</name>
     <visibility>1</visibility>
     <styleUrl>#color349</styleUrl>
     <Polygon>
@@ -21744,10 +21744,10 @@
     </Placemark>
     <Style id="color350">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3c8dfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803c8dfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>350</name>
+    <name>小規模保育園CHES（チェス）</name>
     <visibility>1</visibility>
     <styleUrl>#color350</styleUrl>
     <Polygon>
@@ -21795,10 +21795,10 @@
     </Placemark>
     <Style id="color351">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff439dfd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>80439dfd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>351</name>
+    <name>小規模保育園さくら</name>
     <visibility>1</visibility>
     <styleUrl>#color351</styleUrl>
     <Polygon>
@@ -21838,10 +21838,10 @@
     </Placemark>
     <Style id="color352">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff5abffe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>805abffe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>352</name>
+    <name>小規模保育園KOBILS</name>
     <visibility>1</visibility>
     <styleUrl>#color352</styleUrl>
     <Polygon>
@@ -21878,10 +21878,10 @@
     </Placemark>
     <Style id="color353">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff8ce3fe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>808ce3fe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>353</name>
+    <name>小規模保育事業　花の森</name>
     <visibility>1</visibility>
     <styleUrl>#color353</styleUrl>
     <Polygon>
@@ -21912,10 +21912,10 @@
     </Placemark>
     <Style id="color354">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff1d16de</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>801d16de</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>354</name>
+    <name>キッズブライト・ナーサリー垂水</name>
     <visibility>1</visibility>
     <styleUrl>#color354</styleUrl>
     <Polygon>
@@ -21953,10 +21953,10 @@
     </Placemark>
     <Style id="color355">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff7adbfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>807adbfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>355</name>
+    <name>ちっちゃなこども園よつば</name>
     <visibility>1</visibility>
     <styleUrl>#color355</styleUrl>
     <Polygon>
@@ -21997,10 +21997,10 @@
     </Placemark>
     <Style id="color356">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff80ddfe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8080ddfe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>356</name>
+    <name>小規模保育園ちゃいるどるーむ</name>
     <visibility>1</visibility>
     <styleUrl>#color356</styleUrl>
     <Polygon>
@@ -22047,10 +22047,10 @@
     </Placemark>
     <Style id="color357">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff81defe</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>8081defe</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>357</name>
+    <name>いるか保育園</name>
     <visibility>1</visibility>
     <styleUrl>#color357</styleUrl>
     <Polygon>
@@ -22083,10 +22083,10 @@
     </Placemark>
     <Style id="color358">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff3f94fd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>803f94fd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>358</name>
+    <name>オービーホームキッズ</name>
     <visibility>1</visibility>
     <styleUrl>#color358</styleUrl>
     <Polygon>
@@ -22119,10 +22119,10 @@
     </Placemark>
     <Style id="color359">
     <LineStyle><width>1.0</width></LineStyle>
-    <PolyStyle><color>ff4aaefd</color><colorMode>normal</colorMode></PolyStyle>
+    <PolyStyle><color>804aaefd</color><colorMode>normal</colorMode></PolyStyle>
     </Style>
     <Placemark>
-    <name>359</name>
+    <name>ハートランド・きっず</name>
     <visibility>1</visibility>
     <styleUrl>#color359</styleUrl>
     <Polygon>
