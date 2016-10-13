@@ -4,12 +4,6 @@ category: app
 layout: page
 ---
 
-<script src="{{ "/assets/marked.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/ansi_up.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/prism.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/notebook.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/axios.min.js" | prepend: site.baseurl }}"></script>
-
 2016年5～9月を動画にしてみました。0 歳が着々と増えていく様子が見えます。
 
 <video controls autoplay loop>
@@ -19,6 +13,11 @@ layout: page
 
 ## 手順
 
+<script src="{{ "/assets/marked.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/ansi_up.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/prism.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/notebook.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/axios.min.js" | prepend: site.baseurl }}"></script>
 <div id="nb"></div>
 <script type="text/javascript">
 axios.get("https://raw.githubusercontent.com/hkwi/kobe-barcelona/master/notes/2016-10-05-preschool.ipynb").then(function(resp){
